@@ -1,0 +1,5 @@
+Sou Desenvolvedor Web nascido em Caruaru no interior de Pernambuco, tenho como principal objetivo satisfazer meus clientes
+entrengando um projeto de extrema qualidade, uso ferramentas como Bootstrap e jquery para deixar o site/aplicação o mais
+responsivo e dinâmico possivel. Tenho como meta, me destacar no mercado digital e ser um dos melhores em minha área.
+
+ <i class="fas fa-bars"></i>
