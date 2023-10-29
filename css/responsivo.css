@@ -1,0 +1,9 @@
+@media screen and (max-width: 770px) {
+    .botoes-resumo {
+        display: flex!important;
+        flex-direction: column!important;
+        margin: 0 auto!important;
+        gap: 15px!important;
+        transform: scale(1.2)!important;
+    }
+}

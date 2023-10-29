@@ -9,17 +9,21 @@
 }
 
 :root {
-    --color-background: #fffdf7;
-    --color-black: #212121;
+    --color-background: #1a1a1a;
     --color-black-heavy: #000000;
-    --color-text: #4f4f4f;
-    --color-text-out: #90908e;
-    --color-primary: #FF7B0F;
-    --color-secondary: #ffd1abea;
+    --color-text: #ffffff;
+    --color-text-out: #1a1a1a;
+    --color-primary: ;
+    --color-background2: #efefef;
     --color-white: #ffffff;
     --color-red: #e74c3c;
     --color-green: #2ecc71;
     --color-separate: #cccccc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -134,8 +138,8 @@ a.navbar-brand {
     width: 6.25em;
     height: 3.125em;
     background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, #2a2a2a)) no-repeat;
-    background: -o-linear-gradient(left, #efefef 50%, #2a2a2a 50%) no-repeat;
-    background: linear-gradient(to right, #efefef 50%, #2a2a2a 50%) no-repeat;
+    background: -o-linear-gradient(left, #efefef 50%, #1a1a1a 50%) no-repeat;
+    background: linear-gradient(to right, #efefef 50%, #1a1a1a 50%) no-repeat;
     background-size: 205%;
     background-position: 0;
     -webkit-transition: 0.4s;
@@ -199,22 +203,87 @@ a.navbar-brand {
     }
 }
 
+.botao-resumo {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--color-black-heavy);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    transition: all .4s;
+    text-align: center;
+    padding-top: 2px;
+   }
+   
+   .botao-resumo:hover {
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #530394,
+     0 15px 0 -4px #ED13FF,
+     0 16px 10px -3px #ED13FF;
+   }
+   
+   .botao-resumo:active {
+    transition: all 0.2s;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 0 -2px #530394,
+     0 8px 0 -4px #ED13FF,
+     0 12px 10px -3px #ED13FF;
+   }
+
+.icon-rede {
+    margin-right: 7px;
+}
+
+.div-botoes-resumo {
+    margin-bottom: 150px!important;
+}
+
+.resumo h2 {
+    display: flex;
+    justify-content: center;
+}
 /*cursos*/
 
 .wave1 {
-    display: flex;
+    display: flex!important;
    
+}
+
+.wave2 {
+    position: relative;
+    top: -10px;
 }
 
 .session-name {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-bottom: 100px;
+
 }
 
 .cursos {
-    background-color: #0c0c0c;
-    height: 300px;
+    background-color: var(--color-black-heavy);
+    height: 1000px;
+    position: relative;
+    top: -10px;
+    
+}
+
+.btn-cursos {
+    border: 2px solid #530394;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    width: 145px;
+    margin-right: 5px;
+    border-radius: 30px;
+}
+
+.btn-cursos:hover {
+    border-radius: 30px;
 }
 
 
