@@ -289,7 +289,7 @@ a.navbar-brand {
 }
 
 .grupo-botoes-cursos::-webkit-scrollbar-thumb {
-    background: var(--color-black-heavy);
+    background: transparent;
 }
 
 .grupo-botoes-cursos::-webkit-scrollbar-track {
