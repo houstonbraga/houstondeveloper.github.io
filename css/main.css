@@ -238,7 +238,7 @@ a.navbar-brand {
 }
 
 .div-botoes-resumo {
-    margin-bottom: 150px!important;
+    margin-bottom: 50px!important;
 }
 
 
@@ -306,13 +306,18 @@ a.navbar-brand {
     width: 145px;
     min-width: 145px;
     margin-right: 5px;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .btn-cursos:hover {
-    border-radius: 30px;
+    border-radius: 15px;
     transform: none;
     box-shadow: none;
+}
+
+.btn-cursos:active {
+    border: 2px solid var(--color-white);
+    background-color: #8F18CA;
 }
 
 
