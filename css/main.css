@@ -252,9 +252,7 @@ a.navbar-brand {
     margin-bottom: 30px;
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
-
-    
-    
+    font-weight: 400;
 }
 
 .wave1 {
@@ -262,16 +260,9 @@ a.navbar-brand {
    
 }
 
-.wave2 {
-    position: relative;
-    top: -10px;
-}
 
-.session-name {
-    display: flex;
-    padding-bottom: 100px;
 
-}
+/*Cursos*/
 
 .cursos {
     background-color: var(--color-black-heavy);
@@ -331,6 +322,7 @@ a.navbar-brand {
     box-shadow: 0 5px 0 -2px #530394,
     0 12px 0 -4px #ED13FF,
      0 12px 10px -3px #ED13FF;
+    border: 2px solid #530394;
 }
 
 .active-btn-resumo {
@@ -347,6 +339,22 @@ a.navbar-brand {
     align-items: center;
 }
 
+.img-linguagem-curso {
+    margin-bottom: 200px;
+    margin-left: 50px;
+}
+
+.cursos h3 {
+    font-size: 20px;
+    
+    
+}
+
+.wave2 {
+    position: relative;
+    top: -10px;
+}
+
 /*projetos*/
 
 .projetos {
@@ -358,7 +366,8 @@ a.navbar-brand {
     justify-content: center;
     margin-bottom: 30px;
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;  
+    font-size: 60px;
+    font-weight: 400;  
 }
 
 
