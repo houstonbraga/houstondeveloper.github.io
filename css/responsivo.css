@@ -17,14 +17,5 @@
         justify-content: start;
     }
 
-    .div-linguagem-curso {
-        display: flex;
-    }
-
-    .img-linguagem-curso {
-        transform: scale(0.4);
-        display: flex;
-        margin-top: -250px;
-        margin-left: -50px;
-    }
+    
 }

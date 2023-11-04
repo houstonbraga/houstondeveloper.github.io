@@ -279,7 +279,7 @@ a.navbar-brand {
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+    gap: 5px;
 }
 
 .grupo-botoes-cursos::-webkit-scrollbar{
@@ -339,10 +339,7 @@ a.navbar-brand {
     align-items: center;
 }
 
-.img-linguagem-curso {
-    margin-bottom: 200px;
-    margin-left: 50px;
-}
+
 
 .cursos h3 {
     font-size: 20px;
