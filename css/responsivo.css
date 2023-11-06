@@ -1,10 +1,13 @@
-@media screen and (max-width: 1200px) {
-    .div-cursos-selecionados {
+@media screen and (max-width: 991px){
+    .div-cursos-selecionados{
         display: flex;
-        padding: 0;
+        margin: 50px auto!important;
+        
         
     }
 }
+
+
 
 @media screen and (max-width: 770px) {
     .botoes-resumo {
@@ -39,7 +42,9 @@
         align-items: center;
     }
 
-    .curso1 {
-        margin: 0 auto;
+    
+
+    .img-curso {
+        opacity: 1;
     }
 }
