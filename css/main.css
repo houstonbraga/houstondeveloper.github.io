@@ -104,11 +104,36 @@ a.navbar-brand {
     color: var(--color-white)!important;
     padding-left: 35px!important;
     padding-right: 35px!important;
+    
 }
 
-.nav-link:hover {
-    color: var(--color-text)!important;
+.nav-item a {
+    transition: 0.2s ease-in-out;
+    position: relative;
+    padding-right: 5px;
 }
+
+.nav-item a:hover {
+    color: rgba(255, 255, 255, 0.637)!important;
+}
+
+.nav-item a::after{
+    margin-left: 30px;
+    content: " ";
+    width: 0;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.637);
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    transition: 0.2s ease-in;
+}
+
+.nav-item a:hover::after {
+    width: 60%;
+}
+
+
 
 .btn-white {
     background-color: var(--color-white);
@@ -244,16 +269,9 @@ a.navbar-brand {
 }
 
 
-/*cursos*/
 
-.cursos h2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 60px;
-    font-weight: 400;
-}
+
+
 
 .wave1 {
     display: flex!important;
@@ -264,12 +282,23 @@ a.navbar-brand {
 
 /*Cursos*/
 
+
+
 .cursos {
     background-color: var(--color-black-heavy);
-    height: 550px;
+    height: 800px;
     position: relative;
     top: -10px;
     
+}
+
+.cursos h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .grupo-botoes-cursos {
@@ -325,27 +354,83 @@ a.navbar-brand {
     border: 2px solid #530394;
 }
 
-.active-btn-resumo {
-    border: 2px solid var(--color-white);
-    background-color: #530394;
-}
+/*cursos selecionados*/
 
 .curso-selecionado {
-    width: 1050px;
-    height: 500px;
-    
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    max-width: 400px!important;
+    max-height: 500px;
+    width: 400px;
+    height: 500px;
+    
+    border-radius: 15px;
+    margin-right: 130px;
+    
+    position: relative;
+    
+}
+
+.div-cursos-selecionados {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    padding-left: 150px;
+}
+
+.img-curso {
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    opacity: 0.2;
+}
+
+.div-cursos-selecionados h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 250px;
+}
+
+.info-curso {
+    width: 356px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cursos span {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.botao-ver-certificado {
+    background-color: #530394;
+    margin: 20px 100px;
 }
 
 
 
-.cursos h3 {
-    font-size: 20px;
-    
-    
-}
+
+
+
+
+
+
+
+
+
+
+
 
 .wave2 {
     position: relative;

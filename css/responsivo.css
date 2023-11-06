@@ -1,3 +1,11 @@
+@media screen and (max-width: 1200px) {
+    .div-cursos-selecionados {
+        display: flex;
+        padding: 0;
+        
+    }
+}
+
 @media screen and (max-width: 770px) {
     .botoes-resumo {
         display: flex!important;
@@ -17,5 +25,21 @@
         justify-content: start;
     }
 
-    
+    .div-img-linguagem {
+        margin-left: 0px;
+    }
+
+    .div-cursos-selecionados .curso2 {
+        display: none;
+    }
+
+    .div-cursos-selecionados {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .curso1 {
+        margin: 0 auto;
+    }
 }
