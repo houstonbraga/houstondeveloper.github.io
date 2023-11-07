@@ -421,6 +421,19 @@ a.navbar-brand {
     margin: 20px 100px;
 }
 
+.bolinha-curso {
+    display: none;
+}
+
+.pai-bolinhas {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
 
 
 
