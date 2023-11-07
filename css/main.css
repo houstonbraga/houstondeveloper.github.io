@@ -286,7 +286,7 @@ a.navbar-brand {
 
 .cursos {
     background-color: var(--color-black-heavy);
-    height: 800px;
+    height: 850px;
     position: relative;
     top: -10px;
     
@@ -428,7 +428,7 @@ a.navbar-brand {
 .pai-bolinhas {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
 }
 
@@ -450,7 +450,7 @@ a.navbar-brand {
 
 .wave2 {
     position: relative;
-    top: -10px;
+    top: -30px;
 }
 
 /*projetos*/

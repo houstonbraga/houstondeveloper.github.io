@@ -55,4 +55,9 @@
         height: 15px;
         border-radius: 50%;
     }
+
+    .bolinha-curso-ativa {
+    background-color: #ED13FF;
+    box-shadow: 1px 1px 15px #b91fc7;
+    }
 }
