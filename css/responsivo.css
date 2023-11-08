@@ -21,6 +21,10 @@
         
     }
 
+    .cursos {
+        height: 850px;
+    }
+
     .grupo-botoes-cursos {
         overflow: hidden;
         overflow-x: auto;
@@ -61,8 +65,20 @@
     box-shadow: 1px 1px 15px #b91fc7;
     }
 
+    .container-polaroid {
+        display: flex;
+        justify-content: center;
+    }
+
     .polaroid {
         display: flex;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .polaroid-hidden {
+        display: none;
     }
 }

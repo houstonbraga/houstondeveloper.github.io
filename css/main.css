@@ -286,7 +286,7 @@ a.navbar-brand {
 
 .cursos {
     background-color: var(--color-black-heavy);
-    height: 850px;
+    height: 800px;
     position: relative;
     top: -10px;
     
@@ -484,16 +484,71 @@ a.navbar-brand {
 }
 
 .photo {
-    border-bottom: 4px solid #8F18CA;
+    border-bottom: 6px solid #8F18CA;
+    object-fit: cover;
+    width: 100%;
 }
 
 
 .info-projeto {
-    background-color: #530394;
+    background-color: #8f18ca34;
     width: 354px;
-    height: 50px;
+    height: 100px;
     border-radius: 0px 0px 30px 30px;
-    display: none;
+    
+    
+}
+
+.container-polaroid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px 30px;
+}
+
+.polaroid {
+    margin: 0 0!important;
+    width: 354px;
+
+}
+
+.projetos span {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botoes-info-projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-projeto {
+    background-color: transparent;
+    border: 2px solid white;
+    transform: scale(0.9);
+    width: 120px;
+    min-width: 120px;
+
+}
+
+.btn-projeto:hover {
+    transform: scale(0.9);
+}
+
+.btn-projeto a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn-projeto a:hover {
+    text-decoration: none;
 }
 
 
