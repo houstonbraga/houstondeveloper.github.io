@@ -434,6 +434,21 @@ a.navbar-brand {
 
 
 
+.data-curso {
+    position: absolute;
+    top: 285px;
+    font-size: 12px;
+    background: linear-gradient(90deg, #530394, #8F18CA, #ED13FF, #CC67EF, #530394);
+    background-size: 400% 100%;
+    animation: degrade 15s linear infinite alternate;
+    background-clip: css;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #530394;
+}
+
+
+
 
 
 
