@@ -386,7 +386,6 @@ a.navbar-brand {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
     padding-left: 150px;
 }
 
@@ -413,7 +412,6 @@ a.navbar-brand {
     display: flex;
     justify-content: start;
     flex-direction: column;
-    
 }
 
 .info-curso span {
@@ -430,7 +428,6 @@ a.navbar-brand {
 .botao-ver-certificado {
     background-color: #530394;
     margin: 20px 110px;
-
 }
 
 .bolinha-curso {
@@ -444,8 +441,6 @@ a.navbar-brand {
     justify-content: center;
 }
 
-
-
 .data-curso {
     position: absolute;
     top: 285px;
@@ -458,22 +453,6 @@ a.navbar-brand {
     -webkit-text-fill-color: transparent;
     border-bottom: 1px solid #530394;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .wave2 {
     position: relative;
@@ -509,8 +488,6 @@ a.navbar-brand {
     width: 354px;
     height: 100px;
     border-radius: 0px 0px 30px 30px;
-    
-    
 }
 
 .container-polaroid {
@@ -522,7 +499,6 @@ a.navbar-brand {
 .polaroid {
     margin: 0 0!important;
     width: 354px;
-
 }
 
 .projetos span {
@@ -531,14 +507,14 @@ a.navbar-brand {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    
+    padding-left: 20px;
 }
 
 .botoes-info-projeto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .btn-projeto {
@@ -547,7 +523,13 @@ a.navbar-brand {
     transform: scale(0.9);
     width: 120px;
     min-width: 120px;
+    box-shadow: 
+    0 6px 0 -4px #ED13FF,
+     0 9px 10px -3px #ED13FF;  
+}
 
+.btn-projeto:hover {
+    box-shadow: none;
 }
 
 .btn-projeto:hover {
@@ -564,6 +546,8 @@ a.navbar-brand {
 .btn-projeto a:hover {
     text-decoration: none;
 }
+
+
 
 
 
