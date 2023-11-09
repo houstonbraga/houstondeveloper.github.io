@@ -293,12 +293,23 @@ a.navbar-brand {
 }
 
 .cursos h2 {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     margin-bottom: 30px;
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     font-weight: 400;
+    animation: onda 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--animation-delay));
+}
+
+@keyframes onda {
+    20% {
+        transform: translateY(-15px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
 }
 
 .grupo-botoes-cursos {
@@ -410,7 +421,8 @@ a.navbar-brand {
 }
 
 .cursos span {
-    font-size: 14px;
+    font-size: 15px;
+    line-height: 20px;
     margin-top: 20px;
     padding: 0 10px;
 }
@@ -437,7 +449,7 @@ a.navbar-brand {
 .data-curso {
     position: absolute;
     top: 285px;
-    font-size: 12px;
+    font-size: 14px;
     background: linear-gradient(90deg, #530394, #8F18CA, #ED13FF, #CC67EF, #530394);
     background-size: 400% 100%;
     animation: degrade 15s linear infinite alternate;
@@ -481,6 +493,8 @@ a.navbar-brand {
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     font-weight: 400;  
+    animation: onda 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--animation-delay));
 }
 
 .photo {
