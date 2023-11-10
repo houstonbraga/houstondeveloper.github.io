@@ -1,9 +1,28 @@
+
+@media  screen and (max-width: 1168px) {
+    .container-polaroid {
+        margin: auto!important;
+        padding-left: 140px;
+        grid-gap: 20px;
+    }
+}
+
 @media screen and (max-width: 991px){
     .div-cursos-selecionados{
         display: flex;
         margin: 50px auto!important;
         
         
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .container-polaroid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0!important;
     }
 }
 
@@ -78,7 +97,5 @@
         
     }
 
-    .polaroid-hidden {
-        display: none;
-    }
+    
 }
