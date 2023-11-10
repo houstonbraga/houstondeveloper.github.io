@@ -461,10 +461,6 @@ a.navbar-brand {
 
 /*projetos*/
 
-.projetos {
-    height: 1500px;
-}
-
 .projetos h2 {
     display: flex;
     justify-content: center;
@@ -484,13 +480,9 @@ a.navbar-brand {
     
 }
 
-.photo:hover{
-    
-}
-
 
 .info-projeto {
-    background-color: #8f18ca34;
+    background-color: #8f18ca17;
     width: 354px;
     height: 80px;
     border-radius: 0px 0px 30px 30px;
@@ -501,7 +493,7 @@ a.navbar-brand {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(354px, 1fr));
-    grid-gap: 30px 30px;
+    grid-gap: 50px 30px;
     max-width: 1200px;
     justify-content: center;
 }
@@ -510,7 +502,7 @@ a.navbar-brand {
     margin: 0 0!important;
     width: 354px;
     border-radius: 0px 0px 30px 30px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.788);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.582);
 }
 
 .projetos span {
