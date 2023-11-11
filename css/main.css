@@ -393,7 +393,7 @@ a.navbar-brand {
     margin-top: 30px;
     position: absolute;
     top: 0;
-    opacity: 0.5;
+    
 }
 
 .div-cursos-selecionados h3 {
@@ -558,6 +558,20 @@ a.navbar-brand {
 .btn-site:hover {
     filter: blur(1px);
     transform: scale(1.1);
+}
+
+/*habilidades*/
+
+.habilidades h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 400;  
+    animation: onda 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--animation-delay));
 }
 
 
