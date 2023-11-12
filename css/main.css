@@ -300,6 +300,7 @@ a.navbar-brand {
     font-weight: 400;
     animation: onda 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--animation-delay));
+    text-shadow: #530394 0.1em 0.1em 0.2em;
 }
 
 @keyframes onda {
@@ -337,7 +338,7 @@ a.navbar-brand {
 
 .btn-cursos {
     background-color: var(--color-black-heavy);
-    border: 2px solid #530394;
+    border: 2px solid #8F18CA;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -426,7 +427,7 @@ a.navbar-brand {
 }
 
 .botao-ver-certificado {
-    background-color: #530394;
+    background-color: #8F18CA;
     margin: 20px 110px;
 }
 
@@ -470,6 +471,7 @@ a.navbar-brand {
     font-weight: 400;  
     animation: onda 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--animation-delay));
+    text-shadow: #530394 0.1em 0.1em 0.2em;
 }
 
 .photo {
@@ -574,16 +576,21 @@ a.navbar-brand {
     margin-top: 100px;
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
-    font-weight: 400;  
+    font-weight: 400;
     animation: onda 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--animation-delay));
+    text-shadow: #530394 0.1em 0.1em 0.2em;
 }
 
 .grupo-cards-habilidades {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .card-habilidade {
@@ -594,11 +601,21 @@ a.navbar-brand {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.582);
     transition: 0.3s ease-in-out;
     cursor: pointer;
-    border-bottom: 6px solid #8F18CA ;
+    border-bottom: 6px solid #8F18CA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .card-habilidade:hover {
     transform: scale(1.1);
+}
+
+.habilidades h3 {
+    font-family: 'Oswald';
+    font-size: 18px;
 }
 
 
