@@ -293,8 +293,9 @@ a.navbar-brand {
     height: 100%;
     transform: rotate(180);
     right: 0px;
-    filter: drop-shadow(1px 1px 15px #1a1a1a);
-    filter: blur(2px);
+    filter: drop-shadow(2px 2px 15px #6e6e6e);
+    filter: grayscale(2px);
+    filter: opacity(0.5);
     opacity: 0.1;
     overflow-x: hidden;
     
@@ -339,6 +340,10 @@ a.navbar-brand {
     gap: 5px;
 }
 
+.botao-active {
+    back
+}
+
 .grupo-botoes-cursos::-webkit-scrollbar{
     width: 6px;
     background: transparent;
@@ -363,6 +368,13 @@ a.navbar-brand {
     min-width: 145px;
     margin-right: 5px;
     border-radius: 15px;
+}
+
+.botao-active {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 0 -2px #530394,
+     0 12px 0 -4px #ED13FF,
+     0 12px 10px -3px #ED13FF;
 }
 
 .btn-cursos:hover {
