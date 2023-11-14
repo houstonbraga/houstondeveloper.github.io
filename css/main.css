@@ -214,9 +214,9 @@ a.navbar-brand {
 /*resumo*/
 
 .nome-destaque {
-    font-size: 68px;
-    font-weight: 600;
     
+    font-size: 160px;
+    font-family: 'Tusker Grotesk';
     background: linear-gradient(90deg, #530394, #8F18CA, #ED13FF, #CC67EF, #530394);
     background-size: 400% 100%;
     animation: degrade 15s linear infinite alternate;
@@ -287,7 +287,18 @@ a.navbar-brand {
 
 /*Cursos*/
 
+.nome-curso-marca {
+    position: absolute;
 
+    height: 100%;
+    transform: rotate(180);
+    right: 0px;
+    filter: drop-shadow(1px 1px 15px #1a1a1a);
+    filter: blur(2px);
+    opacity: 0.1;
+    overflow-x: hidden;
+    
+}
 
 .cursos {
     background-color: var(--color-black-heavy);
@@ -300,8 +311,8 @@ a.navbar-brand {
 .cursos h2 {
     display: inline-block;
     margin-bottom: 30px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-family: 'Tusker Grotesk', sans-serif;
+    font-size: 150px;
     font-weight: 400;
     animation: onda 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--animation-delay));
@@ -310,7 +321,7 @@ a.navbar-brand {
 
 @keyframes onda {
     20% {
-        transform: translateY(-15px);
+        transform: translateY(-60px);
     }
 
     40% {
@@ -471,8 +482,8 @@ a.navbar-brand {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-family: 'Tusker Grotesk', sans-serif;
+    font-size: 150px;
     font-weight: 400;  
     animation: onda 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--animation-delay));
@@ -579,8 +590,8 @@ a.navbar-brand {
     justify-content: center;
     margin-bottom: 30px;
     margin-top: 100px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-family: 'Tusker Grotesk', sans-serif;
+    font-size: 150px;
     font-weight: 400;
     animation: onda 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--animation-delay));
@@ -625,27 +636,10 @@ a.navbar-brand {
 
 /*interesses*/
 
-.interesses {
-   display: flex;
-   flex-direction: column;
-   justify-content: start;
-   align-items: center;
-   margin-top: 50px;
-}
 
-.interesses h1 {
-    font-family: "Tusker Grotesk", sans-serif;
-    text-transform: uppercase;
-    font-size: 140px;
-    display: flex;
-    justify-content: start;
-    text-shadow: 5px 5px 15px black;
-}
 
-.btn-interesses {
-    background-color: transparent;
-    
-}
+
+
 
 /*footer*/
 

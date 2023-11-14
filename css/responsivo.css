@@ -1,4 +1,7 @@
 
+
+
+
 @media  screen and (max-width: 1168px) {
     .container-polaroid {
         margin: auto!important;
@@ -29,6 +32,8 @@
 
 
 @media screen and (max-width: 770px) {
+
+
     .botoes-resumo {
         display: flex!important;
         flex-direction: row!important;
@@ -66,13 +71,13 @@
     }
     
     .img-curso {
-        opacity: 0.7;
+        opacity: 0.9;
     }
 
     .bolinha-curso {
         justify-content: center;
         align-items: center;
-        display: flex;
+        display: none;
         background-color: white;
         width: 15px;
         height: 15px;
@@ -97,5 +102,14 @@
         
     }
 
-    
+    h2 {
+        font-size: 100px!important;
+    }
+
+
+    .interesses h1{
+        font-size: 150px;
+        
+        
+    }
 }
