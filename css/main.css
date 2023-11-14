@@ -10,6 +10,11 @@
     src: url('../fonts/Poppins-Regular.otf');
 }
 
+@font-face {
+    font-family: 'Tusker Grotesk';
+    src: url('../fonts/TuskerGrotesk-2600Semibold.otf');
+}
+
 :root {
     --color-background: #1a1a1a;
     --color-black-heavy: #000000;
@@ -275,7 +280,7 @@ a.navbar-brand {
 
 .wave1 {
     display: flex!important;
-   
+
 }
 
 
@@ -300,7 +305,7 @@ a.navbar-brand {
     font-weight: 400;
     animation: onda 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--animation-delay));
-    text-shadow: #530394 0.1em 0.1em 0.2em;
+    text-shadow: var(--color-black-heavy) 0.1em 0.1em 0.2em;
 }
 
 @keyframes onda {
@@ -471,7 +476,7 @@ a.navbar-brand {
     font-weight: 400;  
     animation: onda 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--animation-delay));
-    text-shadow: #530394 0.1em 0.1em 0.2em;
+    text-shadow: var(--color-black-heavy) 0.2em 0.2em 0.2em;
 }
 
 .photo {
@@ -579,7 +584,7 @@ a.navbar-brand {
     font-weight: 400;
     animation: onda 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--animation-delay));
-    text-shadow: #530394 0.1em 0.1em 0.2em;
+    text-shadow: var(--color-black-heavy) 0.2em 0.2em 0.2em;
 }
 
 .grupo-cards-habilidades {
@@ -617,6 +622,36 @@ a.navbar-brand {
     font-family: 'Oswald';
     font-size: 18px;
 }
+
+/*interesses*/
+
+.interesses {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+   margin-top: 50px;
+}
+
+.interesses h1 {
+    font-family: "Tusker Grotesk", sans-serif;
+    text-transform: uppercase;
+    font-size: 140px;
+    display: flex;
+    justify-content: start;
+    text-shadow: 5px 5px 15px black;
+}
+
+.btn-interesses {
+    background-color: transparent;
+    
+}
+
+/*footer*/
+
+
+
+
 
 
 
