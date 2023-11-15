@@ -315,20 +315,10 @@ a.navbar-brand {
     font-family: 'Tusker Grotesk', sans-serif;
     font-size: 150px;
     font-weight: 400;
-    animation: onda 2s ease-in-out infinite;
-    animation-delay: calc(0.1s * var(--animation-delay));
     text-shadow: var(--color-black-heavy) 0.1em 0.1em 0.2em;
 }
 
-@keyframes onda {
-    20% {
-        transform: translateY(-60px);
-    }
 
-    40% {
-        transform: translateY(0px);
-    }
-}
 
 .grupo-botoes-cursos {
     overflow: hidden;
@@ -496,9 +486,7 @@ a.navbar-brand {
     margin-bottom: 30px;
     font-family: 'Tusker Grotesk', sans-serif;
     font-size: 150px;
-    font-weight: 400;  
-    animation: onda 2s ease-in-out infinite;
-    animation-delay: calc(0.1s * var(--animation-delay));
+    font-weight: 400;
     text-shadow: var(--color-black-heavy) 0.2em 0.2em 0.2em;
 }
 
@@ -605,8 +593,6 @@ a.navbar-brand {
     font-family: 'Tusker Grotesk', sans-serif;
     font-size: 150px;
     font-weight: 400;
-    animation: onda 2s ease-in-out infinite;
-    animation-delay: calc(0.1s * var(--animation-delay));
     text-shadow: var(--color-black-heavy) 0.2em 0.2em 0.2em;
 }
 
