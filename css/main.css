@@ -15,6 +15,19 @@
     src: url('../fonts/TuskerGrotesk-2600Semibold.otf');
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #2c2c2c31;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bebebf;
+    border-radius: 4px;
+}
+
 :root {
     --color-background: #1a1a1a;
     --color-black-heavy: #000000;
@@ -330,9 +343,7 @@ a.navbar-brand {
     gap: 5px;
 }
 
-.botao-active {
-    back
-}
+
 
 .grupo-botoes-cursos::-webkit-scrollbar{
     width: 6px;
@@ -349,7 +360,7 @@ a.navbar-brand {
 
 .btn-cursos {
     background-color: var(--color-black-heavy);
-    border: 2px solid #8F18CA;
+    border: 2px solid var(--color-white);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -434,7 +445,7 @@ a.navbar-brand {
 }
 
 .info-curso span {
-    text-align: center;
+    text-align: start;
 }
 
 .cursos span {
@@ -445,8 +456,9 @@ a.navbar-brand {
 }
 
 .botao-ver-certificado {
-    background-color: #8F18CA;
+    background-color: transparent;
     margin: 20px 110px;
+    border: 2px solid white;
 }
 
 .bolinha-curso {
@@ -581,6 +593,10 @@ a.navbar-brand {
 .btn-site:hover {
     filter: blur(1px);
     transform: scale(1.1);
+}
+
+.btn-ver-mais-projetos {
+    background-color: transparent;
 }
 
 /*habilidades*/
