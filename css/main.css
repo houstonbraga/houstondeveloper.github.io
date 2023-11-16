@@ -512,7 +512,7 @@ a.navbar-brand {
 
 
 .info-projeto {
-    background-color: #131213b2;
+    background-color: #131213d5;
     width: 354px;
     height: 100%;
     display: flex;
@@ -522,8 +522,11 @@ a.navbar-brand {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
     
 }
+
+
 
 .container-polaroid {
     margin: auto;
@@ -558,13 +561,17 @@ a.navbar-brand {
 
 .botoes-projetos {
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .btn-projeto {
+    color: var(--color-white);
+    border-radius: 15px;
     background-color: transparent;
     border: 2px solid white;
-    transform: scale(0.9);
+    transform: scale(0.7);
     width: 120px;
     min-width: 120px;
     box-shadow: 
@@ -576,9 +583,7 @@ a.navbar-brand {
     box-shadow: none;
 }
 
-.btn-projeto:hover {
-    transform: scale(0.9);
-}
+
 
 .btn-projeto a{
     color: white;
