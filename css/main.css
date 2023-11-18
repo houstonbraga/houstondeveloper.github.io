@@ -293,7 +293,9 @@ a.navbar-brand {
 
 .wave1 {
     display: flex!important;
-
+    background: none;
+    
+    filter: drop-shadow(0px -50px 40px #8f18ca27);
 }
 
 
@@ -434,7 +436,7 @@ a.navbar-brand {
 }
 
 .info-curso{
-    width: 356px;
+    width: 300px;
     height: 200px;
     position: absolute;
     bottom: 0px;
@@ -459,6 +461,7 @@ a.navbar-brand {
     background-color: transparent;
     margin: 20px 110px;
     border: 2px solid white;
+    display: none;
 }
 
 .bolinha-curso {
@@ -488,8 +491,13 @@ a.navbar-brand {
 .wave2 {
     position: relative;
     top: -30px;
-}
+    background: none;
+    
+    
+    filter: drop-shadow(0px 50px 40px #8f18ca27);
+    
 
+}
 /*projetos*/
 
 .projetos h2 {
@@ -523,7 +531,6 @@ a.navbar-brand {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    
 }
 
 
@@ -540,7 +547,6 @@ a.navbar-brand {
 .polaroid {
     margin: 0 0!important;
     width: 354px;
-    
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.582);
     transition: 0.4s ease-in-out;
     position: relative;
@@ -556,7 +562,6 @@ a.navbar-brand {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    
 }
 
 .botoes-projetos {
