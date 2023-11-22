@@ -100,6 +100,10 @@ html, body {
     color: var(--color-white);
 }
 
+body {
+    position: relative;
+}
+
 b {
     font-family: 'PoppinsMedium', 'Rubik', sans-serif;
 }
@@ -663,16 +667,21 @@ a.navbar-brand {
     font-size: 18px;
 }
 
-/*interesses*/
-
-
-
-
-
 
 /*footer*/
 
+.wave3 {
+    position: relative;
+    top: 30px;
+    background: none;
+    
+    filter: drop-shadow(0px -50px 40px #8f18ca42);
+}
 
+footer {
+    background-color: var(--color-black-heavy);
+    height: 150px;
+}
 
 
 
