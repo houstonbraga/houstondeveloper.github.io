@@ -29,6 +29,12 @@
     }
 }
 
+@media screen and (max-width: 1100px) {
+    .marca-footer {
+        transform: scale(0.2);
+    }
+}
+
 
 
 @media screen and (max-width: 770px) {
@@ -103,9 +109,24 @@
         
     }
 
+    .polaroid-mobile {
+        display: none;
+    }
+
 
     h2 {
         font-size: 100px!important;
     }
 
+    .marca-footer {
+        position: absolute;
+        bottom: -220px;
+    }
+
+}
+
+@media screen and (max-width: 499px) {
+    .grupo-footer {
+        gap: 30px;
+    }
 }

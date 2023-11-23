@@ -674,13 +674,49 @@ a.navbar-brand {
     position: relative;
     top: 30px;
     background: none;
-    
-    filter: drop-shadow(0px -50px 40px #8f18ca42);
+    filter: drop-shadow(0px -60px 40px #8f18ca42);
 }
 
 footer {
     background-color: var(--color-black-heavy);
     height: 150px;
+    z-index: 5;
+    position: relative;
+    
+}
+
+.links-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+footer a {
+    color: var(--color-white);
+    font-size: 14px;
+
+}
+
+footer a:hover {
+    color: #8a8a8a;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+footer span {
+    font-size: 12px;
+    color: #8a8a8a;
+    text-align: center;
+
 }
 
 
