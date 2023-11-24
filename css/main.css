@@ -735,6 +735,53 @@ footer span {
     
 }
 
+.bar {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MODO LIGHT*/
+
+.modo-light{
+    color: var(--color-background);
+    background-color: var(--color-background2);
+
+}
+
+ .modo-light .bar {
+    color: var(--color-background);
+}
+
+.modo-light .nav-link {
+    color: var(--color-background)!important;
+}
+
+.modo-light .titulo-sessao {
+    color: var(--color-white);
+}
+
+.modo-light .div-cursos-selecionados span,
+.modo-light .div-cursos-selecionados h3 {
+    color: var(--color-white);
+}
+
+.modo-light .btn-ver-mais-projetos {
+    color: var(--color-black-heavy);
+    border: 2px solid var(--color-black-heavy);
+}
+
 
 
 
