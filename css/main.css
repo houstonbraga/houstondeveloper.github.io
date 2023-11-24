@@ -680,8 +680,9 @@ a.navbar-brand {
 footer {
     background-color: var(--color-black-heavy);
     height: 150px;
+    
     z-index: 5;
-    position: relative;
+
     
 }
 
@@ -717,6 +718,21 @@ footer span {
     color: #8a8a8a;
     text-align: center;
 
+}
+
+.nome-footer-marca {
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    
+    
+    left: 0px;
+    filter: drop-shadow(2px 2px 15px #6e6e6e);
+    filter: grayscale(2px);
+    filter: opacity(0.5);
+    opacity: 0.1;
+    overflow-x: hidden;
+    
 }
 
 
