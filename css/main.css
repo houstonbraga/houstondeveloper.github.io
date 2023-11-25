@@ -551,7 +551,7 @@ a.navbar-brand {
 .polaroid {
     margin: 0 0!important;
     width: 354px;
-    box-shadow: 5px 5px 10px 1px #000000;
+    box-shadow: 5px 5px 30px 1px #00000080;
     transition: 0.4s ease-in-out;
     position: relative;
 }
@@ -785,15 +785,15 @@ footer span {
 }
 
 .modo-light .wave3 {
-    filter: drop-shadow(0px -40px 40px #00000094);
+    filter: drop-shadow(0px -80px 60px #8f18ca4f);
 }
 
 .modo-light .wave2 {
-    filter: drop-shadow(0px 20px 40px #00000094);
+    filter: drop-shadow(0px 70px 60px #8f18ca4f);
 }
 
 .modo-light .wave1 {
-    filter: drop-shadow(0px -30px 40px #00000094);
+    filter: drop-shadow(0px -80px 60px #8f18ca4f);
 }
 
 
