@@ -163,6 +163,12 @@
         left: -30px;
     }
 
+    .modo-light .wave1,
+    .modo-light .wave2,
+    .modo-light .wave3 {
+        filter: none;
+    }
+
     .logo-footer {
         transform: scale(0.8);
     }
