@@ -1,3 +1,25 @@
+//mudar de tema
+
+const checkbox = document.getElementById("chk");
+checkbox.addEventListener("change", () => {
+    document.body.classList.toggle('modo-light');
+});
+
+//mudar a logo ao trocar o tema
+
+var imgAtual = "img/logo-light.png";
+var imgAnterior = "img/logo.png";
+
+function mudarLogo() {
+    document.getElementById("img-logo").src = imgAtual;
+    let aux = imgAtual;
+    imgAtual = imgAnterior;
+    imgAnterior = aux;
+};
+
+
+
+
 //botoes resumo
 
 let btnCursos = document.getElementById('react');
