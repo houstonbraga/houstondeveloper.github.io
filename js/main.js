@@ -20,7 +20,7 @@ function mudarLogo() {
 
 
 
-//botoes resumo
+//botoes cursos
 
 let btnCursos = document.getElementById('react');
 //aprender novamente o forEach
