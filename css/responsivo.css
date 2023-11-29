@@ -172,10 +172,15 @@
     .logo-footer {
         transform: scale(0.8);
     }
+
 }
 
 @media screen and (max-width: 499px) {
     .grupo-footer {
         gap: 30px;
+    }
+
+    .nome-destaque {
+        line-height: 180px;
     }
 }
