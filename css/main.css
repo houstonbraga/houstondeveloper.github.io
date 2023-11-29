@@ -755,6 +755,8 @@ footer span {
 
 
 
+
+
 /*MODO LIGHT*/
 
 .modo-light{
@@ -790,6 +792,10 @@ footer span {
     
 }
 
+.modo-light .titulo-projetos,
+.modo-light .titulo-habilidades {
+    color: var(--color-black-heavy);
+}
 
 
 
