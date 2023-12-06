@@ -296,6 +296,8 @@ a.navbar-brand {
 
 
 
+
+
 .wave1 {
     display: flex!important;
     background: none;
@@ -519,6 +521,7 @@ a.navbar-brand {
     border-bottom: 6px solid #8F18CA;
     object-fit: cover;
     width: 100%;
+    height: 100%;
     cursor: pointer;
     
 }
@@ -704,7 +707,7 @@ footer {
 
 footer a {
     color: var(--color-white);
-    font-size: 14px;
+    font-size: 12px;
 
 }
 
