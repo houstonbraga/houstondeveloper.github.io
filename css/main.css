@@ -439,14 +439,14 @@ a.navbar-brand {
     font-size: 16px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    margin: 250px 0 0 0!important;
+    margin: 200px 0 0 0!important;
 }
 
 .info-curso{
     width: 300px;
     height: 200px;
     position: absolute;
-    bottom: 0px;
+    bottom: 50px;
     border-radius: 11px;
     display: flex;
     justify-content: start;
@@ -454,7 +454,7 @@ a.navbar-brand {
 }
 
 .info-curso span {
-    text-align: start;
+    text-align: center;
 }
 
 .cursos span {
@@ -484,7 +484,7 @@ a.navbar-brand {
 
 .data-curso {
     position: absolute;
-    top: 285px;
+    top: 225px;
     font-size: 14px;
     background: linear-gradient(90deg, #530394, #8F18CA, #ED13FF, #CC67EF, #530394);
     background-size: 400% 100%;
