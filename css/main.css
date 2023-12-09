@@ -514,7 +514,7 @@ a.navbar-brand {
     font-family: 'Tusker Grotesk', sans-serif;
     font-size: 150px;
     font-weight: 400;
-    text-shadow: var(--color-background) 0px 0px 10px;
+    
 }
 
 .photo {
@@ -633,7 +633,7 @@ a.navbar-brand {
     font-family: 'Tusker Grotesk', sans-serif;
     font-size: 150px;
     font-weight: 400;
-    text-shadow: var(--color-black-heavy) 0px 0px 10px;
+    
 }
 
 .grupo-cards-habilidades {
@@ -791,6 +791,7 @@ footer span {
 
 .modo-light .titulo-sessao {
     color: var(--color-white);
+    
 }
 
 .modo-light .div-cursos-selecionados span,
