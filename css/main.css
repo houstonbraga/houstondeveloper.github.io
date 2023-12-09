@@ -777,6 +777,18 @@ footer span {
     color: var(--color-background)!important;
 }
 
+.modo-light .nav-link:hover {
+    color: var(--color-background)!important;
+}
+
+.modo-light .nav-link::after {
+    color: var(--color-background)!important;
+}
+
+.modo-light .nav-item a::after {
+    background-color: var(--color-background);
+}
+
 .modo-light .titulo-sessao {
     color: var(--color-white);
 }
