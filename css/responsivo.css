@@ -173,6 +173,10 @@
         transform: scale(0.8);
     }
 
+    .pai-bolinhas {
+        display: flex;
+    }
+
 }
 
 @media screen and (max-width: 499px) {

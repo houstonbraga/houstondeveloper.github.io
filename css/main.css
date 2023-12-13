@@ -476,10 +476,13 @@ a.navbar-brand {
 }
 
 .pai-bolinhas {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    justify-content: center;
+    
+    display: none;
+    transform: rotate(-150deg);
+    
+    position: relative;
+    top: -150px;
+    
 }
 
 .data-curso {
