@@ -478,10 +478,10 @@ a.navbar-brand {
 .pai-bolinhas {
     
     display: none;
-    transform: rotate(-150deg);
+    
     
     position: relative;
-    top: -150px;
+    top: -180px;
     
 }
 
