@@ -243,15 +243,7 @@ a.navbar-brand {
     -webkit-text-fill-color: transparent;
 }
 
-@keyframes degrade {
-    0% {
-        background-position-x: 0%;
-    }
 
-    100% {
-        background-position-x: 400%;
-    }
-}
 
 .botao-resumo {
     width: 150px;
@@ -566,6 +558,7 @@ a.navbar-brand {
 
 .polaroid:hover {
     transform: scale(1.1);
+    
 }
 
 .projetos span {
@@ -666,16 +659,21 @@ a.navbar-brand {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    
 }
 
 .card-habilidade:hover {
     transform: scale(1.1);
+  
+    
 }
 
 .habilidades h3 {
     font-family: 'Oswald';
     font-size: 18px;
 }
+
+
 
 
 /*footer*/
@@ -816,6 +814,18 @@ footer span {
 .modo-light .titulo-habilidades {
     color: var(--color-background);
     
+}
+
+.modo-light .card-habilidade {
+    background-color: var(--color-background);
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(26, 26, 26, 0.123);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(26, 26, 26, 0.233);
+    box-shadow: 1px 1px 20px 0px rgba(26, 26, 26, 0.801);
+
+}
+
+.modo-light .card-habilidade h3 {
+    color: white;
 }
 
 

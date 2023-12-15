@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+
+@keyframes degrade {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 400%;
+    }
+}
