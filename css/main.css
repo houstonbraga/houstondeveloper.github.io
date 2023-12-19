@@ -258,6 +258,11 @@ a.navbar-brand {
     text-align: center;
     padding-top: 2px;
    }
+
+   .botao-resumo a {
+    color: var(--color-white);
+    text-decoration: none;
+   }
    
    .botao-resumo:hover {
     border-radius: 5px;
