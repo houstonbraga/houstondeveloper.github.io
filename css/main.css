@@ -724,7 +724,7 @@ footer span {
 
 .nome-footer-marca {
     position: absolute;
-    width: 150px;
+    width: 300px;
     bottom: 0;
     
     
@@ -754,13 +754,6 @@ footer span {
     position: relative;
   }
   
-  
-  
-  
-  
-  
-  
-  
   .message, .signin {
     color: var(--color-background);
     font-size: 40px;
@@ -773,12 +766,6 @@ footer span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
-  
-  
-  
-  
-  
   
   .flex {
     display: flex;

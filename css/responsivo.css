@@ -3,6 +3,7 @@
 @media screen and (max-width: 1260px) {
     .nome-footer-marca {
         position: absolute;
+        left: -30px;
         transform: scale(0.9);
     }
 }
@@ -59,6 +60,8 @@
 @media screen and (max-width: 842px) {
     .nome-footer-marca {
         transform: scale(0.7);
+        position: absolute;
+        left: -50px;
     }
 }
 
@@ -159,8 +162,8 @@
 @media screen and (max-width: 605px) {
     .nome-footer-marca {
         transform: scale(0.6);
-        bottom: -70px;
-        left: -30px;
+        bottom: -90px;
+        left: -60px;
     }
 
     .modo-light .wave1,
