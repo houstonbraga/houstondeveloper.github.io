@@ -33,7 +33,6 @@
     --color-black-heavy: #000000;
     --color-text: #ffffff;
     --color-text-out: #1a1a1a;
-    --color-primary: ;
     --color-background2: #efefef;
     --color-white: #ffffff;
     --color-red: #e74c3c;
@@ -726,15 +725,12 @@ footer span {
     position: absolute;
     width: 300px;
     bottom: 0;
-    
-    
     left: 0px;
     filter: drop-shadow(2px 2px 15px #6e6e6e);
     filter: grayscale(2px);
     filter: opacity(0.5);
     opacity: 0.1;
     overflow-x: hidden;
-    
 }
 
 .bar {
@@ -845,11 +841,11 @@ footer span {
       opacity: 1;
     }
   
-    to {
-      transform: scale(1.8);
-      opacity: 0;
-    }
-  }
+to {
+    transform: scale(1.8);
+    opacity: 0;
+}
+}
 
 
 
