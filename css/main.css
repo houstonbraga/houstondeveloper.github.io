@@ -915,16 +915,10 @@ to {
     
 }
 
-.modo-light .card-habilidade {
-    background-color: var(--color-background);
-    -webkit-box-shadow: 8px 8px 24px 0px rgba(26, 26, 26, 0.123);
-    -moz-box-shadow: 8px 8px 24px 0px rgba(26, 26, 26, 0.233);
-    box-shadow: 1px 1px 20px 0px rgba(26, 26, 26, 0.801);
 
-}
 
 .modo-light .card-habilidade h3 {
-    color: white;
+    color: var(--color-background);
 }
 
 

@@ -39,7 +39,7 @@ const botoesCursos = [
 
 botoesCursos.forEach((elemento, indice, completo) => console.log(elemento, indice, completo));
 
-
+//trocar imagem de EM BREVE
 
 
 
