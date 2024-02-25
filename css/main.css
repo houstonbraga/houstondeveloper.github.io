@@ -29,7 +29,7 @@
 }
 
 :root {
-    --color-background: #1a1a1a;
+    --color-background: #111111;
     --color-black-heavy: #000000;
     --color-text: #ffffff;
     --color-text-out: #1a1a1a;
@@ -95,7 +95,7 @@
 
 html, body {
     font-family: 'PoppinsRegular', 'Rubik', sans-serif;
-    background-color: #1a1a1a;
+    background-color: #111111;
     color: var(--color-white);
 }
 
@@ -187,8 +187,8 @@ a.navbar-brand {
     width: 6.25em;
     height: 3.125em;
     background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, #2a2a2a)) no-repeat;
-    background: -o-linear-gradient(left, #efefef 50%, #1a1a1a 50%) no-repeat;
-    background: linear-gradient(to right, #efefef 50%, #1a1a1a 50%) no-repeat;
+    background: -o-linear-gradient(left, #efefef 50%, #111111 50%) no-repeat;
+    background: linear-gradient(to right, #efefef 50%, #111111 50%) no-repeat;
     background-size: 205%;
     background-position: 0;
     -webkit-transition: 0.4s;
@@ -208,9 +208,9 @@ a.navbar-brand {
     position: absolute;
     top: 0.438em;
     left: 0.438em;
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, #2a2a2a)) no-repeat;
-    background: -o-linear-gradient(left, #efefef 50%, #2a2a2a 50%) no-repeat;
-    background: linear-gradient(to right, #efefef 50%, #2a2a2a 50%) no-repeat;
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, #111111)) no-repeat;
+    background: -o-linear-gradient(left, #efefef 50%, #111111 50%) no-repeat;
+    background: linear-gradient(to right, #efefef 50%, #111111 50%) no-repeat;
     background-size: 205%;
     background-position: 100%;
     border-radius: 50%;
