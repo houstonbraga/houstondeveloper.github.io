@@ -228,6 +228,23 @@ a.navbar-brand {
     background-position: 100%;
 }
 
+/*aorela-nome*/
+
+.aorela-nome {
+    display: none;
+    background: transparent;
+    width: 200px;
+    height: 100px;
+    border-radius: 70%;
+    border: 5px solid rgba(255, 255, 255, 0.808);
+    box-shadow: 0px 0px 20px #eb13ff73;
+    box-shadow: inset;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    transform: rotate(45deg);
+}
+
 /*resumo*/
 
 .nome-destaque {
@@ -284,6 +301,7 @@ a.navbar-brand {
 }
 
 .div-botoes-resumo {
+    margin-top: 90px!important;
     margin-bottom: 50px!important;
 }
 
@@ -427,6 +445,8 @@ a.navbar-brand {
     margin-top: 30px;
     position: absolute;
     top: 0;
+    transition: opacity 0.9s ease-in-out; /* Adiciona uma transição suave de 0.5s para a opacidade */
+    opacity: 1; /* Define a opacidade inicial como 1 */
     
 }
 
@@ -554,7 +574,7 @@ a.navbar-brand {
 .polaroid {
     margin: 0 0!important;
     width: 354px;
-    box-shadow: 5px 5px 30px 1px #00000080;
+    box-shadow: 5px 5px 20px 1px #00000080;
     transition: 0.4s ease-in-out;
     position: relative;
 }
@@ -587,13 +607,13 @@ a.navbar-brand {
     transform: scale(0.7);
     width: 120px;
     min-width: 120px;
-    box-shadow: 
-    0 6px 0 -4px #ED13FF,
-     0 9px 10px -3px #ED13FF;  
+    box-shadow: none;
+    transition: 0.2s ease-in-out;  
 }
 
 .btn-projeto:hover {
     box-shadow: none;
+    transform: scale(0.8);
 }
 
 
