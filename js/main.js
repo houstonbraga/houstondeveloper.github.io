@@ -4,6 +4,7 @@ const checkbox = document.getElementById("chk");
 
 checkbox.addEventListener("change", () => {
     document.body.classList.toggle('modo-light');
+    //mudar a imagem de em breve ao mudar o tema
     emBreve.forEach(index => {
         if(document.body.classList.contains('modo-light')) {
             index.src = 'img/em breve.png';
