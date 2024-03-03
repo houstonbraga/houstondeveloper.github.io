@@ -143,7 +143,7 @@ a.navbar-brand {
     margin-left: 30px;
     content: " ";
     width: 0;
-    height: 2px;
+    height: 2.5px;
     background-color: rgba(255, 255, 255, 0.637);
     position: absolute;
     bottom: 10px;
@@ -152,7 +152,7 @@ a.navbar-brand {
 }
 
 .nav-item a:hover::after {
-    width: 60%;
+    width: 30px;
 }
 
 
@@ -556,7 +556,7 @@ a.navbar-brand {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    
+    transition: height 0.4s ease;
 }
 
 

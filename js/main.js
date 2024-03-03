@@ -81,12 +81,59 @@ btnCursos.web.addEventListener("click", () => {
 });
 
 
+//ADICIONAR A CLASSE CORTINA NA DIV DE INFO-PROJETOS
+
+function handleProjeto1() {
+    const elementoDestino = document.getElementById('info-projeto1');
+    const elementoGatilho = document.getElementById('polaroid1');
     
+    elementoGatilho.addEventListener('mouseenter', function() {
+        elementoDestino.style.display = 'flex';
+    });
+
+    elementoGatilho.addEventListener('mouseleave', function() {
+        elementoDestino.style.display = 'none';
+    });
+}
+
+// Função para o Projeto 2
+function handleProjeto2() {
+    const elementoDestino = document.getElementById('info-projeto2');
+    const elementoGatilho = document.getElementById('polaroid2');
+    
+    elementoGatilho.addEventListener('mouseenter', function() {
+        elementoDestino.style.display = 'flex';
+    });
+
+    elementoGatilho.addEventListener('mouseleave', function() {
+        elementoDestino.style.display = 'none';
+    });
+}
+
+
+
+//projeto 3
+function handleProjeto3() {
+    const elementoDestino = document.getElementById('info-projeto3');
+    const elementoGatilho = document.getElementById('polaroid3');
+    
+    elementoGatilho.addEventListener('mouseenter', function() {
+        elementoDestino.style.display = 'flex';
+    });
+
+    elementoGatilho.addEventListener('mouseleave', function() {
+        elementoDestino.style.display = 'none';
+    });
+}
+
+// Chame as funções para cada projeto
+handleProjeto1();
+handleProjeto2();
+handleProjeto3();
 
 
 
 
-//trocar imagem de EM BREVE
 
 
 
