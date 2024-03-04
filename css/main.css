@@ -391,7 +391,7 @@ a.navbar-brand {
     width: 145px;
     min-width: 145px;
     margin-right: 5px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .botao-active {
@@ -402,7 +402,7 @@ a.navbar-brand {
 }
 
 .btn-cursos:hover {
-    border-radius: 15px;
+    border-radius: 5px;
     transform: translateY(-5px);
     box-shadow: 0 5px 0 -2px #530394,
      0 12px 0 -4px #ED13FF,

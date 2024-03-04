@@ -81,6 +81,8 @@ btnCursos.web.addEventListener("click", () => {
 });
 
 
+
+
 //ADICIONAR A CLASSE CORTINA NA DIV DE INFO-PROJETOS
 
 function handleProjeto1() {
