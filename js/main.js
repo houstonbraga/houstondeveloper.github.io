@@ -1,3 +1,10 @@
+//SCROLL INTERACTIVE
+
+
+
+
+
+
 //mudar de tema
 let emBreve = document.querySelectorAll('.photo-em-breve');
 const checkbox = document.getElementById("chk");
@@ -132,6 +139,57 @@ function handleProjeto3() {
 handleProjeto1();
 handleProjeto2();
 handleProjeto3();
+
+
+
+//SCROLL INTERACTIVE
+
+var listaTargetResumo = [
+    document.querySelector('.nome-destaque'),
+    document.querySelector('#resumo p'), 
+    document.querySelectorAll('#resumo .text-about'),
+    document.querySelector('#resumo .div-botoes-resumo'),
+    document.querySelector('.header'),
+]
+
+var animaScrool1 = {
+    distance: '100px',
+    origin: 'left', 
+    duration: 900
+}
+
+var animaScrool2 = {
+    distance: '100px',
+    origin: 'left', 
+    duration: 800
+}
+
+var animaScrool3 = {
+    distance: '100px',
+    origin: 'left', 
+    duration: 700
+}
+
+var animaScrool4 = {
+    distance: '100px',
+    origin: 'left', 
+    duration: 600
+}
+
+var animaScrool5 = {
+    distance: '50px',
+    origin: 'top',
+    duration: 900
+}
+
+ScrollReveal().reveal(listaTargetResumo[1], animaScrool1);
+ScrollReveal().reveal(listaTargetResumo[0], animaScrool2);
+ScrollReveal().reveal(listaTargetResumo[2], animaScrool3);
+ScrollReveal().reveal(listaTargetResumo[3], animaScrool4);
+ScrollReveal().reveal(listaTargetResumo[4], animaScrool5);
+
+
+
 
 
 
