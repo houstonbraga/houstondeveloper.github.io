@@ -339,9 +339,10 @@ a.navbar-brand {
 
 .cursos {
     background-color: var(--color-black-heavy);
-    height: 800px;
+    height: 900px;
     position: relative;
     top: -10px;
+    
     
 }
 
@@ -424,14 +425,12 @@ a.navbar-brand {
 
 .curso-selecionado {
     display: flex;
-    justify-content: center;
-    align-items: start;
-    max-width: 400px!important;
-    max-height: 500px;
+    flex-direction: column;
+    align-items: center;
     width: 400px;
-    height: 500px;
-    min-width: 400px;
-    margin-right: 130px;
+    
+    
+    
     position: relative;
     
 }
@@ -439,8 +438,14 @@ a.navbar-brand {
 .div-cursos-selecionados {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    padding-left: 150px;
+    align-items: center; 
+
+    
+    
+    
+    
 }
 
 .img-curso {
@@ -458,49 +463,6 @@ a.navbar-brand {
     margin: 200px 0 0 0!important;
 }
 
-.info-curso{
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    bottom: 50px;
-    border-radius: 11px;
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-}
-
-.info-curso span {
-    text-align: center;
-}
-
-.cursos span {
-    font-size: 15px;
-    line-height: 20px;
-    margin-top: 20px;
-    padding: 0 10px;
-}
-
-.botao-ver-certificado {
-    background-color: transparent;
-    margin: 20px 110px;
-    border: 2px solid white;
-    display: none;
-}
-
-.bolinha-curso {
-    display: none;
-}
-
-.pai-bolinhas {
-    
-    display: none;
-    
-    
-    position: relative;
-    top: -180px;
-    
-}
-
 .data-curso {
     position: absolute;
     top: 225px;
@@ -512,6 +474,11 @@ a.navbar-brand {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-bottom: 1px solid #530394;
+}
+
+.icon-info-cursos:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .wave2 {
@@ -581,7 +548,7 @@ a.navbar-brand {
 }
 
 .polaroid:hover {
-    transform: scale(1.1);
+    transform: scale(1.1)!important;
     
 }
 

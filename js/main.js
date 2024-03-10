@@ -142,14 +142,23 @@ handleProjeto3();
 
 
 
+
 //SCROLL INTERACTIVE
 
 var listaTargetResumo = [
     document.querySelector('.nome-destaque'),
     document.querySelector('#resumo p'), 
-    document.querySelectorAll('#resumo .text-about'),
+    document.querySelector('#resumo .text-about'),
+    document.querySelector('#resumo .text-about2'),
     document.querySelector('#resumo .div-botoes-resumo'),
     document.querySelector('.header'),
+
+    document.querySelectorAll('.curso-selecionado'),
+
+    document.querySelectorAll('.polaroid'),
+
+    document.querySelector('.form')
+
 ]
 
 var animaScrool1 = {
@@ -177,16 +186,33 @@ var animaScrool4 = {
 }
 
 var animaScrool5 = {
-    distance: '50px',
+    distance: '100px',
     origin: 'top',
     duration: 900
 }
+
+var animaScrool6 = {
+    distance: '150px',
+    origin: 'left',
+    duration: 1000
+}
+
+
 
 ScrollReveal().reveal(listaTargetResumo[1], animaScrool1);
 ScrollReveal().reveal(listaTargetResumo[0], animaScrool2);
 ScrollReveal().reveal(listaTargetResumo[2], animaScrool3);
 ScrollReveal().reveal(listaTargetResumo[3], animaScrool4);
-ScrollReveal().reveal(listaTargetResumo[4], animaScrool5);
+
+ScrollReveal().reveal(listaTargetResumo[6], animaScrool5);
+
+ScrollReveal().reveal(listaTargetResumo[7], animaScrool5);
+
+ScrollReveal().reveal(listaTargetResumo[8], animaScrool6);
+
+
+
+
 
 
 

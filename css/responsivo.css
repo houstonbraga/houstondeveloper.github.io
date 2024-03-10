@@ -31,9 +31,12 @@
 @media screen and (max-width: 991px){
     .div-cursos-selecionados{
         display: flex;
-        margin: 50px auto!important;
-        
-        
+        flex-direction: row;
+        transform: scale(0.8);
+    }
+
+    .curso-selecionado {
+        width: 300px;
     }
 }
 
@@ -96,34 +99,20 @@
         margin-left: 0px;
     }
 
-    .div-cursos-selecionados .curso2 {
-        display: none;
-    }
 
     .div-cursos-selecionados {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+        padding: 0;
+    }    
     
-    .img-curso {
-        opacity: 0.9;
+    .curso-selecionado {
+        transform: scale(0.9);
+        width: 200px;
     }
 
-    .bolinha-curso {
-        justify-content: center;
-        align-items: center;
-        display: none;
-        background-color: white;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-    }
-
-    .bolinha-curso-ativa {
-    background-color: #ED13FF;
-    box-shadow: 1px 1px 15px #b91fc7;
-    }
+    
 
     .container-polaroid {
         display: flex;
