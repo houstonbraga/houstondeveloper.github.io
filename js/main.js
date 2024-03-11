@@ -42,12 +42,22 @@ let btnCursos = {
     react: document.getElementById('react'),
     javascript: document.getElementById('javascript'),
     nodejs: document.getElementById('nodejs'),
-    typescript: document.getElementById('typescript'),
     uxui: document.getElementById('uxui'),
     web: document.getElementById('web')
 };
 
 let conteudo = document.querySelectorAll('.img-curso');
+let titulo1 = document.getElementById('titulo1');
+let data1 = document.getElementById('data1');
+let info1 = document.getElementById('info1');
+
+let titulo2 = document.getElementById('titulo2');
+let data2 = document.getElementById('data2');
+let info2 = document.getElementById('info2');
+
+let titulo3 = document.getElementById('titulo3');
+let data3 = document.getElementById('data3');
+let info3 = document.getElementById('info3');
 
 
 
@@ -55,36 +65,78 @@ btnCursos.react.addEventListener("click", () => {
     conteudo.forEach(element => {
         element.src = 'img/reactcurso.png'
     })
+
+    titulo1.innerText = "React JS - Dev samurai"
+    data1.innerText = "- A começar -"
+
+    titulo2.innerText = "• EM BREVE •"
+    data2.innerText = '- Em breve -'
+
+    titulo3.innerText = '• EM BREVE •'
+    data3.innerText = '- Em breve -'
 });
 
 btnCursos.javascript.addEventListener("click", () => {
     conteudo.forEach(element => {
         element.src = 'img/javascript light.png'
     })
+
+    titulo1.innerText = "Javascript - Dev samurai"
+    data1.innerText = "- Em andamento -"
+
+    titulo2.innerText = "Javascript - Udemy"
+    data2.innerText = '- Jan 2023 a Dez 2023 -'
+
+    titulo3.innerText = '• EM BREVE •'
+    data3.innerText = '- Em breve -'
 });
 
 btnCursos.nodejs.addEventListener("click", () => {
     conteudo.forEach(element => {
         element.src = 'img/nodecurso.png'
     })
-});
 
-btnCursos.typescript.addEventListener("click", () => {
-    conteudo.forEach(element => {
-        element.src = 'img/typescript.png'
-    })
+    
+    titulo1.innerText = "Node JS - Dev samurai"
+    data1.innerText = "- A começar -"
+
+    titulo2.innerText = "Node JS - Udemy"
+    data2.innerText = '- Jan 2023 a Dez 2023 -'
+
+    titulo3.innerText = '• EM BREVE •'
+    data3.innerText = '- Em breve -'
 });
 
 btnCursos.uxui.addEventListener("click", () => {
     conteudo.forEach(element => {
         element.src = 'img/uxui.png'
     })
+
+    
+    titulo1.innerText = "UX UI - Udemy"
+    data1.innerText = "- Em andamento -"
+
+    titulo2.innerText = "• EM BREVE •"
+    data2.innerText = '- Em breve -'
+
+    titulo3.innerText = '• EM BREVE •'
+    data3.innerText = '- Em breve -'
 });
 
 btnCursos.web.addEventListener("click", () => {
     conteudo.forEach(element => {
-        element.src = 'img/webcurso.png'
+        element.src = 'img/vuecurso.png'
     })
+
+    
+    titulo1.innerText = "Vue JS - Youtube"
+    data1.innerText = "- A começar -"
+
+    titulo2.innerText = "• EM BREVE •"
+    data2.innerText = '- Em breve -'
+
+    titulo3.innerText = '• EM BREVE •'
+    data3.innerText = '- Em breve -'
 });
 
 

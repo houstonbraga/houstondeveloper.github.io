@@ -105,11 +105,14 @@
         justify-content: center;
         align-items: center;
         padding: 0;
+        gap: 0;
     }    
     
     .curso-selecionado {
         transform: scale(0.9);
-        width: 200px;
+        width: 205px;
+        padding: 0!important;
+        margin: 0!important;
     }
 
     
