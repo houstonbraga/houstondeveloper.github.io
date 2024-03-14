@@ -273,6 +273,15 @@ a.navbar-brand {
     transition: all .4s;
     text-align: center;
     padding-top: 2px;
+    border-radius: 5px;
+    transform: translateY(-10px);
+   }
+
+   .sombra {
+    transform: translateY(-9px);
+    box-shadow: 0 7px 0 -2px #530394,
+     0 15px 0 -4px #ED13FF,
+     0 16px 10px -3px #ED13FF;
    }
 
    .botao-resumo a {
@@ -282,7 +291,7 @@ a.navbar-brand {
    
    .botao-resumo:hover {
     border-radius: 5px;
-    transform: translateY(-10px);
+    transform: translateY(-12px);
     box-shadow: 0 7px 0 -2px #530394,
      0 15px 0 -4px #ED13FF,
      0 16px 10px -3px #ED13FF;
@@ -427,10 +436,7 @@ a.navbar-brand {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
-    
-    
-    
+    width: 450px;
     position: relative;
     
 }

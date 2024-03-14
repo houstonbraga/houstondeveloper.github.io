@@ -39,14 +39,17 @@ function mudarLogo() {
 //botoes cursos
 
 let btnCursos = {
-    react: document.getElementById('react'),
+    frameworks: document.getElementById('frameworks'),
     javascript: document.getElementById('javascript'),
-    nodejs: document.getElementById('nodejs'),
-    uxui: document.getElementById('uxui'),
-    web: document.getElementById('web')
+    dados: document.getElementById('dados'),
+    design: document.getElementById('design'),
+    extras: document.getElementById('extras')
 };
 
-let conteudo = document.querySelectorAll('.img-curso');
+let conteudo1 = document.getElementById('curso1');
+let conteudo2 = document.getElementById('curso2');
+let conteudo3 = document.getElementById('curso3');
+
 let titulo1 = document.getElementById('titulo1');
 let data1 = document.getElementById('data1');
 let info1 = document.getElementById('info1');
@@ -59,85 +62,121 @@ let titulo3 = document.getElementById('titulo3');
 let data3 = document.getElementById('data3');
 let info3 = document.getElementById('info3');
 
+let cursoExtra = document.querySelector('.curso3');
 
-
-btnCursos.react.addEventListener("click", () => {
-    conteudo.forEach(element => {
-        element.src = 'img/reactcurso.png'
-    })
-
+btnCursos.frameworks.addEventListener("click", () => {
+    
+    curso1.src = 'img/reactcurso.png'
     titulo1.innerText = "React JS - Dev samurai"
     data1.innerText = "- A começar -"
 
-    titulo2.innerText = "• EM BREVE •"
-    data2.innerText = '- Em breve -'
+    curso2.src = 'img/nodecurso.png'
+    titulo2.innerText = "Node JS - Udemy"
+    data2.innerText = '- Jan 2023 a Dez 2023 -'
+    curso2.style.filter = "grayscale(0)";
 
-    titulo3.innerText = '• EM BREVE •'
-    data3.innerText = '- Em breve -'
+    curso3.src = 'img/vuecurso.png'
+    titulo3.innerText = 'Vue JS - Youtube'
+    data3.innerText = '- A começar -'
+    cursoExtra.style.display = 'flex';
+    curso3.style.filter = "grayscale(0)";
 });
 
 btnCursos.javascript.addEventListener("click", () => {
-    conteudo.forEach(element => {
-        element.src = 'img/javascript light.png'
-    })
-
+    
+    curso1.src = 'img/javascript light.png'
     titulo1.innerText = "Javascript - Dev samurai"
     data1.innerText = "- Em andamento -"
 
+    curso2.src = 'img/javascript light.png'
     titulo2.innerText = "Javascript - Udemy"
     data2.innerText = '- Jan 2023 a Dez 2023 -'
+    curso2.style.filter = "grayscale(0)";
 
+    curso3.src = 'img/javascript light.png'
     titulo3.innerText = '• EM BREVE •'
     data3.innerText = '- Em breve -'
+    cursoExtra.style.display = 'flex';
+    curso3.style.filter = "grayscale(400%)";
 });
 
-btnCursos.nodejs.addEventListener("click", () => {
-    conteudo.forEach(element => {
-        element.src = 'img/nodecurso.png'
-    })
-
+btnCursos.dados.addEventListener("click", () => {
     
-    titulo1.innerText = "Node JS - Dev samurai"
+
+    curso1.src = 'img/sql.png'
+    titulo1.innerText = "QSL"
     data1.innerText = "- A começar -"
 
-    titulo2.innerText = "Node JS - Udemy"
-    data2.innerText = '- Jan 2023 a Dez 2023 -'
+    curso2.src = 'img/prismacurso.png'
+    titulo2.innerText = "Prisma DB"
+    data2.innerText = '-Em breve-'
+    curso2.style.filter = "grayscale(400%)";
 
-    titulo3.innerText = '• EM BREVE •'
+    curso3.src = 'img/mysqlcurso.png'
+    titulo3.innerText = 'mySQL'
     data3.innerText = '- Em breve -'
+    cursoExtra.style.display = 'flex';
+    curso3.style.filter = "grayscale(400%)";
 });
 
-btnCursos.uxui.addEventListener("click", () => {
-    conteudo.forEach(element => {
-        element.src = 'img/uxui.png'
-    })
-
+btnCursos.design.addEventListener("click", () => {
     
+    curso1.src = 'img/uxui.png'
     titulo1.innerText = "UX UI - Udemy"
-    data1.innerText = "- Em andamento -"
-
-    titulo2.innerText = "• EM BREVE •"
-    data2.innerText = '- Em breve -'
-
-    titulo3.innerText = '• EM BREVE •'
-    data3.innerText = '- Em breve -'
-});
-
-btnCursos.web.addEventListener("click", () => {
-    conteudo.forEach(element => {
-        element.src = 'img/vuecurso.png'
-    })
-
-    
-    titulo1.innerText = "Vue JS - Youtube"
     data1.innerText = "- A começar -"
 
-    titulo2.innerText = "• EM BREVE •"
-    data2.innerText = '- Em breve -'
+    curso2.src = 'img/webcurso.png'
+    titulo2.innerText = "Web design - Youtube"
+    data2.innerText = 'Mar 2023 a Out 2023'
+    curso2.style.filter = "grayscale(0)";
 
-    titulo3.innerText = '• EM BREVE •'
-    data3.innerText = '- Em breve -'
+    curso3.src = 'img/figmacurso.png'
+    titulo3.innerText = 'Figma - Youtube'
+    data3.innerText = 'Dez 2023 a Fev 2024'
+    cursoExtra.style.display = 'flex';
+    curso3.style.filter = "grayscale(0)";
 });
+
+btnCursos.extras.addEventListener("click", () => {
+    
+
+    curso1.src = 'img/gitcurso.png'
+    titulo1.innerText = "Git - Gustavo Guanabara"
+    data1.innerText = "Set 2022 a Out 2022"
+
+    curso2.src = 'img/githubcurso.png'
+    titulo2.innerText = "Github - Gustavo Guanabara"
+    data2.innerText = 'Set 2022 a Out 2022'
+    curso2.style.filter = "grayscale(0)";
+
+    cursoExtra.style.display = 'none';
+    
+});
+
+window.addEventListener("load", () => {
+    btnCursos.frameworks.classList.add('sombra');
+});
+
+// Função para remover a sombra de todos os botões
+function removerSombra() {
+    for (let key in btnCursos) {
+        btnCursos[key].classList.remove('sombra');
+    }
+}
+
+// Adiciona evento de clique para cada botão
+for (let key in btnCursos) {
+    btnCursos[key].addEventListener("click", () => {
+        // Remove a sombra de todos os botões
+        removerSombra();
+
+        // Adiciona a sombra apenas ao botão clicado
+        btnCursos[key].classList.add('sombra');
+        
+        // Restante do seu código para atualizar os cursos
+        // ...
+    });
+}
 
 
 
