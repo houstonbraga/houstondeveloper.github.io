@@ -325,7 +325,7 @@ a.navbar-brand {
     display: flex!important;
     background: none;
     
-    filter: drop-shadow(0px -50px 40px #8f18ca27);
+    
 }
 
 
@@ -493,7 +493,7 @@ a.navbar-brand {
     background: none;
     
     
-    filter: drop-shadow(0px 50px 40px #8f18ca27);
+    
     
 
 }
@@ -670,15 +670,13 @@ a.navbar-brand {
     position: relative;
     top: 30px;
     background: none;
-    filter: drop-shadow(0px -60px 40px #8f18ca42);
+    filter: drop-shadow(0px -60px 40px #8f18ca1e);
 }
 
 footer {
     background-color: var(--color-black-heavy);
     height: 470px;
     z-index: 5;
-
-    
 }
 
 .links-footer {
@@ -696,7 +694,6 @@ footer {
 footer a {
     color: var(--color-white);
     font-size: 12px;
-
 }
 
 footer a:hover {
