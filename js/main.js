@@ -73,13 +73,13 @@ btnCursos.frameworks.addEventListener("click", () => {
     curso2.src = 'img/nodecurso.png'
     titulo2.innerText = "Node JS - Udemy"
     data2.innerText = '- Jan 2023 a Dez 2023 -'
-    curso2.style.filter = "grayscale(0)";
+    curso2.style.opacity = '1';
 
     curso3.src = 'img/vuecurso.png'
     titulo3.innerText = 'Vue JS - Youtube'
     data3.innerText = '- A começar -'
     cursoExtra.style.display = 'flex';
-    curso3.style.filter = "grayscale(0)";
+    curso3.style.opacity = '1';
 });
 
 btnCursos.javascript.addEventListener("click", () => {
@@ -91,32 +91,32 @@ btnCursos.javascript.addEventListener("click", () => {
     curso2.src = 'img/javascript light.png'
     titulo2.innerText = "Javascript - Udemy"
     data2.innerText = '- Jan 2023 a Dez 2023 -'
-    curso2.style.filter = "grayscale(0)";
+    curso2.style.opacity = '1';
 
     curso3.src = 'img/javascript light.png'
     titulo3.innerText = '• EM BREVE •'
     data3.innerText = '- Em breve -'
     cursoExtra.style.display = 'flex';
-    curso3.style.filter = "grayscale(400%)";
+    curso3.style.opacity = '0.3';
 });
 
 btnCursos.dados.addEventListener("click", () => {
     
 
-    curso1.src = 'img/sql.png'
-    titulo1.innerText = "QSL"
+    curso1.src = 'img/postgresqlcurso.png'
+    titulo1.innerText = "PostgreSql"
     data1.innerText = "- A começar -"
 
     curso2.src = 'img/prismacurso.png'
     titulo2.innerText = "Prisma DB"
     data2.innerText = '-Em breve-'
-    curso2.style.filter = "grayscale(400%)";
+    curso2.style.opacity = '0.3';
 
     curso3.src = 'img/mysqlcurso.png'
     titulo3.innerText = 'mySQL'
     data3.innerText = '- Em breve -'
     cursoExtra.style.display = 'flex';
-    curso3.style.filter = "grayscale(400%)";
+    curso3.style.opacity = '0.3';
 });
 
 btnCursos.design.addEventListener("click", () => {
@@ -128,13 +128,13 @@ btnCursos.design.addEventListener("click", () => {
     curso2.src = 'img/webcurso.png'
     titulo2.innerText = "Web design - Youtube"
     data2.innerText = 'Mar 2023 a Out 2023'
-    curso2.style.filter = "grayscale(0)";
+    curso2.style.opacity = '1';
 
     curso3.src = 'img/figmacurso.png'
     titulo3.innerText = 'Figma - Youtube'
     data3.innerText = 'Dez 2023 a Fev 2024'
     cursoExtra.style.display = 'flex';
-    curso3.style.filter = "grayscale(0)";
+    curso3.style.opacity = '1';
 });
 
 btnCursos.extras.addEventListener("click", () => {
@@ -147,7 +147,7 @@ btnCursos.extras.addEventListener("click", () => {
     curso2.src = 'img/githubcurso.png'
     titulo2.innerText = "Github - Gustavo Guanabara"
     data2.innerText = 'Set 2022 a Out 2022'
-    curso2.style.filter = "grayscale(0)";
+    curso2.style.opacity = '1';
 
     cursoExtra.style.display = 'none';
     
