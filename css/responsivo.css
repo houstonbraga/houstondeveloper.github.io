@@ -180,22 +180,27 @@
         display: flex;
     }
 
-    .curso-selecionado {
-        width: 270px;
-    }
+    
 
-}
-
-@media screen and (max-width: 548px) {
-    .curso-selecionado {
-        width: 250px;
-    }
 }
 
 @media screen and (max-width: 508px){
     .curso-selecionado {
         transform: scale(0.8)!important;
         width: 200px;
+    }
+
+    .nome-curso-marca {
+        opacity: 5%;
+    }
+
+    .cursos {
+        background-color: var(--color-black-heavy);
+        height: 800px;
+        position: relative;
+        top: -10px;
+        
+        
     }
 }
 
@@ -206,5 +211,11 @@
 
     .nome-destaque {
         line-height: 180px;
+    }
+
+    .div-cursos-selecionados {
+        margin-top: -20px!important;
+        display: flex;
+        gap: 12px;
     }
 }

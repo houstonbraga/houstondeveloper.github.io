@@ -447,19 +447,11 @@ a.navbar-brand {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
-
-    
-    
-    
-    
 }
 
 .img-curso {
-    margin-top: 30px;
     position: absolute;
     top: 0;
-    transition: opacity 0.9s ease-in-out; /* Adiciona uma transição suave de 0.5s para a opacidade */
-    opacity: 1; /* Define a opacidade inicial como 1 */
     }
 
 .div-cursos-selecionados h3 {
