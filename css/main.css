@@ -536,7 +536,7 @@ a.navbar-brand {
     margin: 0 0!important;
     width: 354px;
     box-shadow: 5px 5px 20px 1px #00000080;
-    transition: 0.1s ease-in-out;
+    transition:all 0.2s ease-in-out!important;
     position: relative;
 }
 
