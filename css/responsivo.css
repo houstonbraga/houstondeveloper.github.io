@@ -218,6 +218,15 @@
         display: flex;
         gap: 12px;
     }
+
+    .modals__titulo {
+        font-size: 64px!important;
+    }
+
+    .contactanos__modal {
+        width: 90%;
+        height: 90%;
+    }
 }
 
 @media screen and (max-width: 390px) {

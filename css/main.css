@@ -903,6 +903,99 @@ to {
 
 
 
+/*MODALS DE CURSOS*/
+
+.contactanos__modal-container{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    background-color:#3b3b3bc5;
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+  
+.contactanos__modal{
+    background-color: var(--color-background);
+    box-shadow: 5px 5px 30px #53039446;
+    width: 70%;
+    height: 70%;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: transform .5s;
+    transform: translateY(0%);
+    z-index: 3;
+    
+}
+
+.modals-close{
+    transform: translateY(-150%);
+}
+
+.close_s{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #530394;
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 25px;
+    border-radius: 50%;
+    font-weight: 700;
+    z-index: 4;
+    transition: .5s;
+}
+
+.close_s:hover{
+    background-color: var(--color-white);
+}
+
+.modal__imgs{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    animation: scale 1s 2s backwards;
+    position: absolute;
+    opacity: 0.1;
+    z-index: 1;
+    
+    
+}
+
+.modals__titulo{
+    line-height: 1.5;
+    margin: 5px 5px;
+    color: var(--color-white);
+    font-size: 96px!important;
+}
+
+.modals__parrafo{
+    color: #efefef;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 10px 20px;
+}
+  
+
+
+
+
+
 
 
 

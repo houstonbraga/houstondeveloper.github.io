@@ -302,6 +302,122 @@ ScrollReveal().reveal(listaTargetResumo[7], animaScrool5);
 ScrollReveal().reveal(listaTargetResumo[8], animaScrool6);
 
 
+/*================================== MODAL Cursos =================================*/
+/*============ MODAL curso1 =============*/
+let cerrar4 = document.querySelectorAll(".close-telefonos")[0];
+abrirc4 = document.querySelectorAll(".icon-info-cursos1")[0];
+modal4 = document.querySelectorAll(".telefonos")[0];
+modalc4 = document.querySelectorAll(".modal__telefonos")[0];
+img4 = document.querySelectorAll(".modal__img-telefonos")[0];
+
+abrirc4.addEventListener("click",function(e){
+    e.preventDefault();
+    modalc4.style.opacity="1"
+    img4.style.transform="scale(1)"
+    modalc4.style.visibility="visible"
+    modal4.classList.toggle("modals-close")
+    img4.classList.toggle("open")
+});
+
+cerrar4.addEventListener("click",function(){
+    modal4.classList.toggle("modals-close")
+    // img.style.transform="scale(0)"
+    // img.classList.toggle("open")
+    setTimeout(function(){
+        modalc4.style.opacity="0"
+        modalc4.style.visibility="hidden"
+    },400)
+});
+
+window.addEventListener("click",function(e){
+    if(e.target == modalc4){
+        modal4.classList.toggle("modals-close")
+        // img.style.transform="scale(0)"
+        // img.classList.toggle("open")
+        setTimeout(function(){
+            modalc4.style.opacity="0"
+            modalc4.style.visibility="hidden"
+        },400)
+    }
+});
+
+/*============ MODAL DIRECCION =============*/
+let cerrar5 = document.querySelectorAll(".close-direccion")[0];
+abrirc5 = document.querySelectorAll(".icon-info-cursos2")[0];
+modal5 = document.querySelectorAll(".direccion")[0];
+modalc5 = document.querySelectorAll(".modal__direccion")[0];
+img5 = document.querySelectorAll(".modal__img-direccion")[0];
+
+abrirc5.addEventListener("click",function(e){
+    e.preventDefault();
+    modalc5.style.opacity="1"
+    img5.style.transform="scale(1)"
+    modalc5.style.visibility="visible"
+    modal5.classList.toggle("modals-close")
+    img5.classList.toggle("open")
+});
+
+cerrar5.addEventListener("click",function(){
+    modal5.classList.toggle("modals-close")
+    // img.style.transform="scale(0)"
+    // img.classList.toggle("open")
+    setTimeout(function(){
+        modalc5.style.opacity="0"
+        modalc5.style.visibility="hidden"
+    },400)
+});
+
+window.addEventListener("click",function(e){
+    if(e.target == modalc5){
+        modal5.classList.toggle("modals-close")
+        // img.style.transform="scale(0)"
+        // img.classList.toggle("open")
+        setTimeout(function(){
+            modalc5.style.opacity="0"
+            modalc5.style.visibility="hidden"
+        },400)
+    }
+});
+
+/*============ MODAL HORARIO =============*/
+let cerrar6 = document.querySelectorAll(".close-horarios")[0];
+abrirc6 = document.querySelectorAll(".icon-info-cursos3")[0];
+modal6 = document.querySelectorAll(".horarios")[0];
+modalc6 = document.querySelectorAll(".modal__horarios")[0];
+img6 = document.querySelectorAll(".modal__img-horarios")[0];
+
+abrirc6.addEventListener("click",function(e){
+    e.preventDefault();
+    modalc6.style.opacity="1"
+    img6.style.transform="scale(1)"
+    modalc6.style.visibility="visible"
+    modal6.classList.toggle("modals-close")
+    img6.classList.toggle("open")
+});
+
+cerrar6.addEventListener("click",function(){
+    modal6.classList.toggle("modals-close")
+    // img.style.transform="scale(0)"
+    // img.classList.toggle("open")
+    setTimeout(function(){
+        modalc6.style.opacity="0"
+        modalc6.style.visibility="hidden"
+    },400)
+});
+
+window.addEventListener("click",function(e){
+    if(e.target == modalc6){
+        modal6.classList.toggle("modals-close")
+        // img.style.transform="scale(0)"
+        // img.classList.toggle("open")
+        setTimeout(function(){
+            modalc6.style.opacity="0"
+            modalc6.style.visibility="hidden"
+        },400)
+    }
+});
+
+
 
 
 
