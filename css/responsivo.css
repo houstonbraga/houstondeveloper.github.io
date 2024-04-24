@@ -186,8 +186,7 @@
 
 @media screen and (max-width: 541px) {
     .aorela-nome {
-        transform: translate(-290px, 200px);
-        
+        transform: translate(-290px, 190px) rotate(40deg)!important;
     }
 }
 

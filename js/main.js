@@ -248,8 +248,8 @@ var listaTargetResumo = [
 
     document.querySelectorAll('.polaroid'),
 
-    document.querySelector('.form')
-
+    document.querySelector('.form'),
+    document.querySelector('.aorela-nome')
 ]
 
 var animaScrool1 = {
@@ -288,7 +288,11 @@ var animaScrool6 = {
     duration: 1000
 }
 
-
+var animaScrool7 = {
+    distance: '1000px',
+    origin: 'left',
+    duration: 900
+}
 
 ScrollReveal().reveal(listaTargetResumo[1], animaScrool1);
 ScrollReveal().reveal(listaTargetResumo[0], animaScrool2);
@@ -300,7 +304,7 @@ ScrollReveal().reveal(listaTargetResumo[6], animaScrool5);
 ScrollReveal().reveal(listaTargetResumo[7], animaScrool5);
 
 ScrollReveal().reveal(listaTargetResumo[8], animaScrool6);
-
+//ScrollReveal().reveal(listaTargetResumo[9], animaScrool7);
 
 /*================================== MODAL Cursos =================================*/
 /*============ MODAL curso1 =============*/
