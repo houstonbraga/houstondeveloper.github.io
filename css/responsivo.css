@@ -184,6 +184,14 @@
 
 }
 
+@media screen and (max-width: 541px) {
+    .aorela-nome {
+        transform: translate(-290px, 200px);
+        
+    }
+}
+
+
 @media screen and (max-width: 508px){
     .curso-selecionado {
         transform: scale(0.8)!important;

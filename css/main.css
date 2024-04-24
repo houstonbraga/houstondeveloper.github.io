@@ -232,17 +232,16 @@ a.navbar-brand {
 /*aorela-nome*/
 
 .aorela-nome {
-    display: none;
+    
     background: transparent;
-    width: 200px;
-    height: 100px;
+    width: 100px;
+    height: 50px;
     border-radius: 70%;
-    border: 5px solid rgba(255, 255, 255, 0.808);
-    box-shadow: 0px 0px 20px #eb13ff73;
-    box-shadow: inset;
+    border: 5px solid rgb(190, 190, 190);
+    box-shadow: inset 0px 0px 15px #a80eb6bb, 0px 0px 20px #a80eb6bb;
     position: absolute;
-    top: 10px;
-    left: 350px;
+    top: 28px;
+    left: 430px;
     transform: rotate(45deg);
 }
 
