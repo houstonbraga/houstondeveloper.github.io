@@ -240,9 +240,10 @@ a.navbar-brand {
     border: 5px solid rgb(190, 190, 190);
     box-shadow: inset 0px 0px 15px #a80eb6bb, 0px 0px 20px #a80eb6bb;
     position: absolute;
-    top: 28px;
-    left: 430px;
+    top: 38px;
+    left: 420px;
     transform: rotate(45deg);
+    
 }
 
 /*resumo*/
