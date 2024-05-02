@@ -311,8 +311,16 @@ a.navbar-brand {
 }
 
 .div-botoes-resumo {
-    margin-top: 90px!important;
+    margin-top: 50px!important;
     margin-bottom: 50px!important;
+}
+
+.text-about a {
+    text-decoration: none;
+}
+
+.text-about span:hover {
+    border-bottom: 1px solid white;
 }
 
 
@@ -928,12 +936,12 @@ to {
   
 .contactanos__modal{
     background-color: var(--color-background);
-    box-shadow: 5px 5px 30px #53039446;
-    width: 70%;
-    height: 70%;
-    max-width: 600px;
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.39) ;
+    width: 80%;
+    height: 80%;
+    max-width: 700px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
