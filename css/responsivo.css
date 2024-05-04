@@ -234,6 +234,15 @@
         width: 90%;
         height: 90%;
     }
+
+    .card-habilidade img {
+        width: 50px!important;
+        height: 50px!important;
+    }
+
+    .card-habilidade {
+        padding: 0 40px;
+    }
 }
 
 @media screen and (max-width: 390px) {
