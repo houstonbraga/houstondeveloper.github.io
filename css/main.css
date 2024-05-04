@@ -535,7 +535,7 @@ a.navbar-brand {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(354px, 1fr));
-    grid-gap: 50px 30px;
+    grid-gap: 30px 30px;
     max-width: 1200px;
     justify-content: center;
 }
@@ -546,11 +546,6 @@ a.navbar-brand {
     box-shadow: 5px 5px 20px 1px #00000080;
     transition:all 0.2s ease-in-out!important;
     position: relative;
-}
-
-.polaroid:hover {
-    transform: scale(1.1)!important;
-    
 }
 
 .projetos span {
@@ -757,6 +752,7 @@ footer span {
   
   .form label {
     position: relative;
+    
   }
   
   .form label .input {
@@ -766,6 +762,7 @@ footer span {
     outline: 0;
     border: 1px solid rgba(105, 105, 105, 0.397);
     border-radius: 5px;
+    
   }
   
   .form label .input + span {
@@ -776,6 +773,7 @@ footer span {
     font-size: 0.9em;
     cursor: text;
     transition: 0.3s ease;
+    
   }
   
   .form label .input:placeholder-shown + span {

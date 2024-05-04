@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Language" content="pt-br">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-        <title>Houston Braga🤟</title>
+        <title>Houston Braga</title>
 
         <link rel="stylesheet" href="./css/bootstrap.min.css"/>
         <link rel="stylesheet" href="./css/fontawesome.css"/>
@@ -437,28 +437,32 @@
         
         <footer class="footer" id="footer">
             <div class="d-flex justify-content-center mb-5">
-                <form class="form">
+                <form action="https://api.staticforms.xyz/submit" class="form" method="post">
                 
                     <p class="message">INSCREVA-SE PARA MAIS INFORMAÇÕES</p>
                         <div class="flex">
                         <label>
-                            <input required="" placeholder="" type="text" class="input">
+                            <input required="" placeholder="" type="text" name="name" class="input" autocomplete="off">
                             <span>Nome</span>
                         </label>
                 
                         <label>
-                            <input required="" placeholder="" type="text" class="input">
+                            <input required="" placeholder="" name="name" type="text" class="input" autocomplete="off">
                             <span>Sobrenome</span>
                         </label>
                     </div>  
                             
                     <label>
-                        <input required="" placeholder="" type="email" class="input">
+                        <input required="" placeholder="" name="email" type="email" class="input" autocomplete="off">
                         <span>Email</span>
                     </label> 
+                    
                         
                     
-                    <button class="submit">Enviar</button>
+                    <button type="submit" class="submit">Enviar</button>
+
+                    <input type="hidden" name="accessKey" value="50b256cf-31da-4d85-ad4e-58a8455bcbcc">
+                    <input type="hidden" name="redirectTo" value="https://houstonbraga.github.io/houstondeveloper.github.io/?">
                 </form>
             </div>
             
