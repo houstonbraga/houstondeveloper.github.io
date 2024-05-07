@@ -616,12 +616,11 @@ a.navbar-brand {
     font-family: 'Tusker Grotesk', sans-serif;
     font-size: 150px;
     font-weight: 400;
-    
 }
 
 .grupo-cards-habilidades {
     display: flex;
-    animation: 5s slide infinite linear;
+    animation: 20s slide infinite linear;
 }
 
 .card-habilidade {
@@ -635,6 +634,29 @@ a.navbar-brand {
     overflow: hidden;
     white-space: nowrap;
     display: flex;
+    position: relative;
+}
+
+.div-habilidades:before {
+    content: "";
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(to right, transparent, #111111);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.div-habilidades:after {
+    content: "";
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(to right, #111111,  transparent);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
 }
 
 
