@@ -645,7 +645,7 @@ a.navbar-brand {
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 .div-habilidades:after {
@@ -656,7 +656,7 @@ a.navbar-brand {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 
@@ -916,6 +916,14 @@ to {
 
 .modo-light .card-habilidade h3 {
     color: var(--color-background);
+}
+
+.modo-light .div-habilidades:before {
+    background: linear-gradient(to right, transparent, var(--color-background2));
+}
+
+.modo-light .div-habilidades:after {
+    background: linear-gradient(to right, var(--color-background2),  transparent);
 }
 
 
