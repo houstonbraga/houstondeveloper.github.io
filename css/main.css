@@ -120,6 +120,11 @@ body {
 
 /* header */
 
+header {
+    padding-left: 80px!important;
+    padding-right: 80px;
+}
+
 a.navbar-brand {
     margin-left: -25px;
 }
