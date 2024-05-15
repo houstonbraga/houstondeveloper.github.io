@@ -248,6 +248,11 @@
     .card-habilidade {
         padding: 0 40px;
     }
+
+    .icon-info-cursos {
+        width: 35px!important;
+        height: 35px!important;
+    }
 }
 
 @media screen and (max-width: 390px) {

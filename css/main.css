@@ -382,8 +382,9 @@ a.navbar-brand {
 
 
 .grupo-botoes-cursos {
-    overflow: hidden;
-    overflow-x: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    overflow: auto;
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -391,22 +392,12 @@ a.navbar-brand {
     gap: 5px;
 }
 
+.grupo-botoes-cursos::-webkit-scrollbar {
+    display: none; /* Chrome, Safari e Opera */
+  }
 
 
-.grupo-botoes-cursos::-webkit-scrollbar{
-    width: 0!important;
-    height: 0!important;
-    background: transparent!important;
-    opacity: 0!important;
-}
 
-.grupo-botoes-cursos::-webkit-scrollbar-thumb {
-    background: transparent!important;
-}
-
-.grupo-botoes-cursos::-webkit-scrollbar-track {
-    background: transparent!important;
-}
 
 .btn-cursos {
     background-color: var(--color-black-heavy);
@@ -422,27 +413,27 @@ a.navbar-brand {
 }
 
 .botao-active {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     box-shadow: 0 5px 0 -2px #530394,
-     0 12px 0 -4px #ED13FF,
-     0 12px 10px -3px #ED13FF;
+     0 10px 0 -4px #ED13FF,
+     0 10px 10px -3px #ED13FF;
 }
 
 .btn-cursos:hover {
     border-radius: 5px;
     transform: translateY(-5px);
     box-shadow: 0 5px 0 -2px #530394,
-     0 12px 0 -4px #ED13FF,
-     0 12px 10px -3px #ED13FF;
+     0 10px 0 -4px #ED13FF,
+     0 10px 10px -3px #ED13FF;
 }
 
 .btn-cursos:active {
     transition: all 0.2s;
     transform: translateY(-5px);
     box-shadow: 0 5px 0 -2px #530394,
-    0 12px 0 -4px #ED13FF,
-     0 12px 10px -3px #ED13FF;
-    border: 2px solid #530394;
+    0 5px 0 -2px #ED13FF,
+     0 5px 0 0 #ED13FF;
+    
 }
 
 /*cursos selecionados*/
@@ -479,7 +470,7 @@ a.navbar-brand {
 .data-curso {
     position: absolute;
     top: 225px;
-    font-size: 14px;
+    font-size: 12px;
     background: linear-gradient(90deg, #530394, #8F18CA, #ED13FF, #CC67EF, #530394);
     background-size: 400% 100%;
     animation: degrade 15s linear infinite alternate;
@@ -488,6 +479,8 @@ a.navbar-brand {
     -webkit-text-fill-color: transparent;
    
 }
+
+
 
 .icon-info-cursos:hover{
     transform: scale(1.2);
