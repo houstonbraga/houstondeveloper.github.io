@@ -103,6 +103,7 @@ html, body {
     font-family: 'Audiowide', 'Rubik', sans-serif;
     background-color: #111111;
     color: var(--color-white);
+    scroll-behavior: smooth;
 }
 
 body {

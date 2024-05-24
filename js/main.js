@@ -345,7 +345,7 @@ window.addEventListener("click",function(e){
     }
 });
 
-/*============ MODAL DIRECCION =============*/
+/*============ MODAL CURSO2 =============*/
 let cerrar5 = document.querySelectorAll(".close-direccion")[0];
 abrirc5 = document.querySelectorAll(".icon-info-cursos2")[0];
 modal5 = document.querySelectorAll(".direccion")[0];
@@ -383,7 +383,7 @@ window.addEventListener("click",function(e){
     }
 });
 
-/*============ MODAL HORARIO =============*/
+/*============ MODAL CURSO 3 =============*/
 let cerrar6 = document.querySelectorAll(".close-horarios")[0];
 abrirc6 = document.querySelectorAll(".icon-info-cursos3")[0];
 modal6 = document.querySelectorAll(".horarios")[0];
@@ -420,6 +420,8 @@ window.addEventListener("click",function(e){
         },400)
     }
 });
+
+
 
 
 
