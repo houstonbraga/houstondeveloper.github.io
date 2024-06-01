@@ -131,7 +131,7 @@ a.navbar-brand {
 }
 
 .nav-link {
-    color: var(--color-white)!important;
+    color: #6e6e6e!important;
     padding-left: 35px!important;
     padding-right: 35px!important;
     
@@ -275,7 +275,7 @@ a.navbar-brand {
     font-size: 16px;
     cursor: pointer;
     background-color: var(--color-black-heavy);
-    color: var(--color-white);
+    color: #6e6e6e;
     border: none;
     border-radius: 5px;
     transition: all .4s;
@@ -293,7 +293,7 @@ a.navbar-brand {
    }
 
    .botao-resumo a {
-    color: var(--color-white);
+    color: #6e6e6e;
     text-decoration: none;
    }
    
@@ -324,6 +324,11 @@ a.navbar-brand {
 
 .text-about a {
     text-decoration: none;
+}
+
+.text-about,
+.text-about2 {
+    color: #6e6e6e;
 }
 
 .text-about span:hover {
@@ -865,7 +870,7 @@ to {
 }
 
 .modo-light .nav-link {
-    color: var(--color-background)!important;
+    color: #6e6e6e!important;
 }
 
 .modo-light .nav-link:hover {
