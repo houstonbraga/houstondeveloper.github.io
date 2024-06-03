@@ -275,7 +275,7 @@ a.navbar-brand {
     font-size: 16px;
     cursor: pointer;
     background-color: var(--color-black-heavy);
-    color: #6e6e6e;
+    color: white;
     border: none;
     border-radius: 5px;
     transition: all .4s;
@@ -293,7 +293,7 @@ a.navbar-brand {
    }
 
    .botao-resumo a {
-    color: #6e6e6e;
+    color: white;
     text-decoration: none;
    }
    
@@ -893,7 +893,6 @@ to {
 
 .modo-light .titulo-sessao {
     color: var(--color-white);
-    
 }
 
 .modo-light .div-cursos-selecionados span,

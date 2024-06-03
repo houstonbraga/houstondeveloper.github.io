@@ -239,15 +239,12 @@ handleProjeto3();
 var listaTargetResumo = [
     document.querySelector('.nome-destaque'),
     document.querySelector('#resumo p'), 
+    document.querySelectorAll('#resumo .text-about'),
     document.querySelector('#resumo .text-about'),
-    document.querySelector('#resumo .text-about2'),
     document.querySelector('#resumo .div-botoes-resumo'),
     document.querySelector('.header'),
-
     document.querySelectorAll('.curso-selecionado'),
-
     document.querySelectorAll('.polaroid'),
-
     document.querySelector('.form'),
     document.querySelector('.aorela-nome')
 ]
