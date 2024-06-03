@@ -874,15 +874,15 @@ to {
 }
 
 .modo-light .nav-link:hover {
-    color: var(--color-background)!important;
+    color: #CC67EF!important;
 }
 
 .modo-light .nav-link::after {
-    color: var(--color-background)!important;
+    color: #CC67EF!important;
 }
 
 .modo-light .nav-item a::after {
-    background-color: var(--color-background);
+    background-color: #CC67EF;
 }
 
 .modo-light .aorela-nome {
