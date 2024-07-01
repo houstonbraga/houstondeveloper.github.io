@@ -40,7 +40,7 @@ function mudarLogo() {
 
 let btnCursos = {
     frameworks: document.getElementById('frameworks'),
-    javascript: document.getElementById('javascript'),
+    lenguages: document.getElementById('javascript'),
     dados: document.getElementById('dados'),
     design: document.getElementById('design'),
     extras: document.getElementById('extras')
@@ -82,19 +82,19 @@ btnCursos.frameworks.addEventListener("click", () => {
     curso3.style.opacity = '1';
 });
 
-btnCursos.javascript.addEventListener("click", () => {
+btnCursos.lenguages.addEventListener("click", () => {
     
     curso1.src = 'img/javascript light.png'
     titulo1.innerText = "Javascript - Dev samurai"
     data1.innerText = "- Em andamento -"
 
-    curso2.src = 'img/javascript light.png'
-    titulo2.innerText = "Javascript - Udemy"
-    data2.innerText = '- Jan 2023 a Dez 2023 -'
-    curso2.style.opacity = '1';
+    curso2.src = 'img/python.png.png'
+    titulo2.innerText = "Python"
+    data2.innerText = '- Em breve -'
+    curso2.style.opacity = '0.3';
 
-    curso3.src = 'img/javascript light.png'
-    titulo3.innerText = '• EM BREVE •'
+    curso3.src = 'img/csharp.png'
+    titulo3.innerText = 'c#'
     data3.innerText = '- Em breve -'
     cursoExtra.style.display = 'flex';
     curso3.style.opacity = '0.3';
