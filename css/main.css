@@ -288,8 +288,8 @@ a.navbar-brand {
    .sombra {
     transform: translateY(-9px);
     box-shadow: 0 7px 0 -2px #530394,
-     0 15px 0 -4px #ED13FF,
-     0 16px 10px -3px #ED13FF;
+     0 8px 0 -4px #ED13FF,
+     0 8px 10px -3px #ED13FF;
    }
 
    .botao-resumo a {
@@ -519,9 +519,19 @@ a.navbar-brand {
     
 }
 
+.show {
+    display: block; /* Ou block, dependendo do seu layout */
+    animation: curtain 1s forwards;
+}
+
+.hidden {
+    display: block;
+    animation: noCortain 1s forwards;
+}
+
 
 .info-projeto {
-    background-color: #131213d5;
+    background-color: #131213ea;
     width: 354px;
     height: 100%;
     display: none;

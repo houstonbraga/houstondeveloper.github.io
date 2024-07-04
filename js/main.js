@@ -189,6 +189,7 @@ function handleProjeto1() {
     
     elementoGatilho.addEventListener('mouseenter', function() {
         elementoDestino.style.display = 'flex';
+        elementoDestino.classList.add('show');
     });
 
     elementoGatilho.addEventListener('mouseleave', function() {
@@ -203,6 +204,7 @@ function handleProjeto2() {
     
     elementoGatilho.addEventListener('mouseenter', function() {
         elementoDestino.style.display = 'flex';
+        elementoDestino.classList.add('show');
     });
 
     elementoGatilho.addEventListener('mouseleave', function() {
@@ -219,10 +221,12 @@ function handleProjeto3() {
     
     elementoGatilho.addEventListener('mouseenter', function() {
         elementoDestino.style.display = 'flex';
+        elementoDestino.classList.add('show');
     });
 
     elementoGatilho.addEventListener('mouseleave', function() {
         elementoDestino.style.display = 'none';
+        
     });
 }
 
@@ -249,58 +253,34 @@ var listaTargetResumo = [
     document.querySelector('.aorela-nome')
 ]
 
-var animaScrool1 = {
-    distance: '100px',
-    origin: 'left', 
-    duration: 900
+var animaScroolConfigs = [
+    { distance: '100px', origin: 'left', duration: 900 },
+    { distance: '100px', origin: 'left', duration: 800 },
+    { distance: '100px', origin: 'left', duration: 700 },
+    { distance: '100px', origin: 'left', duration: 600 },
+    { distance: '100px', origin: 'top', duration: 900 },
+    { distance: '150px', origin: 'left', duration: 1000 },
+    { distance: '1000px', origin: 'left', duration: 900 },
+    { distance: '100px', origin: 'top', duration: 900 }, // Usado para indices 6 e 7
+]
+
+var targetConfigMap = {
+    0: 1,
+    1: 0,
+    2: 2,
+    3: 3,
+    6: 4,
+    7: 4,
+    8: 5
 }
 
-var animaScrool2 = {
-    distance: '100px',
-    origin: 'left', 
-    duration: 800
+for (let index in targetConfigMap) {
+    let target = listaTargetResumo[index];
+    let config = animaScroolConfigs[targetConfigMap[index]];
+    ScrollReveal().reveal(target, config);
 }
 
-var animaScrool3 = {
-    distance: '100px',
-    origin: 'left', 
-    duration: 700
-}
 
-var animaScrool4 = {
-    distance: '100px',
-    origin: 'left', 
-    duration: 600
-}
-
-var animaScrool5 = {
-    distance: '100px',
-    origin: 'top',
-    duration: 900
-}
-
-var animaScrool6 = {
-    distance: '150px',
-    origin: 'left',
-    duration: 1000
-}
-
-var animaScrool7 = {
-    distance: '1000px',
-    origin: 'left',
-    duration: 900
-}
-
-ScrollReveal().reveal(listaTargetResumo[1], animaScrool1);
-ScrollReveal().reveal(listaTargetResumo[0], animaScrool2);
-ScrollReveal().reveal(listaTargetResumo[2], animaScrool3);
-ScrollReveal().reveal(listaTargetResumo[3], animaScrool4);
-
-ScrollReveal().reveal(listaTargetResumo[6], animaScrool5);
-
-ScrollReveal().reveal(listaTargetResumo[7], animaScrool5);
-
-ScrollReveal().reveal(listaTargetResumo[8], animaScrool6);
 //ScrollReveal().reveal(listaTargetResumo[9], animaScrool7);
 
 /*================================== MODAL Cursos =================================*/
