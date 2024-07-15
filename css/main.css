@@ -688,7 +688,7 @@ a.navbar-brand {
 footer {
     background-color: var(--color-black-heavy);
     height: 470px;
-    z-index: 5;
+    
 }
 
 .links-footer {
@@ -734,6 +734,7 @@ footer span {
     filter: opacity(0.5);
     opacity: 0.1;
     overflow-x: hidden;
+    
 }
 
 .bar {
