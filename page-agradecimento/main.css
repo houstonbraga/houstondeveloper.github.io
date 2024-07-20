@@ -54,3 +54,9 @@ body img {
     }
 }
 
+@media screen and (max-width: 500px) {
+    body h1 {
+        font-size: 34px;
+    }
+}
+
