@@ -254,6 +254,10 @@
         width: 35px!important;
         height: 35px!important;
     }
+
+    .text-about {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 390px) {
