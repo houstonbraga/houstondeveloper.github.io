@@ -73,6 +73,16 @@ body {
     display: none!important;
 }
 
+.hidd {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
 .color-primary {
     color: var(--color-primary);
 }
@@ -425,9 +435,9 @@ a.navbar-brand {
     }
 
 .div-cursos-selecionados h3 {
-    font-size: 16px;
+    font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Audiowide', sans-serif;
     margin: 200px 0 0 0!important;
 }
 

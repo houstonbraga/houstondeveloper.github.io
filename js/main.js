@@ -73,16 +73,17 @@ btnCursos.frameworks.addEventListener("click", () => {
     curso2.src = 'img/nodecurso.png'
     titulo2.innerText = "Node JS - Udemy"
     data2.innerText = '- Jan 2023 a Dez 2023 -'
-    curso2.style.opacity = '1';
+    curso2.style.filter = 'grayscale(0)';
 
     curso3.src = 'img/vuecurso.png'
     titulo3.innerText = 'Vue JS - Youtube'
     data3.innerText = '- A começar -'
     cursoExtra.style.display = 'flex';
-    curso3.style.opacity = '1';
+    curso3.style.filter = 'grayscale(0)';
 });
 
 btnCursos.lenguages.addEventListener("click", () => {
+    
     
     curso1.src = 'img/javascript light.png'
     titulo1.innerText = "Javascript - Dev samurai"
@@ -90,14 +91,14 @@ btnCursos.lenguages.addEventListener("click", () => {
 
     curso2.src = 'img/python.png.png'
     titulo2.innerText = "Python"
-    data2.innerText = '- Em breve -'
-    curso2.style.opacity = '0.3';
+    data2.innerText = '- INTERESSE -'
+    curso2.style.filter = 'grayscale(1)';
 
     curso3.src = 'img/csharp.png'
     titulo3.innerText = 'c#'
-    data3.innerText = '- Em breve -'
+    data3.innerText = '- INTERESSE -'
     cursoExtra.style.display = 'flex';
-    curso3.style.opacity = '0.3';
+    curso3.style.filter = 'grayscale(1)';
 });
 
 btnCursos.dados.addEventListener("click", () => {
@@ -109,14 +110,14 @@ btnCursos.dados.addEventListener("click", () => {
 
     curso2.src = 'img/prismacurso.png'
     titulo2.innerText = "Prisma DB"
-    data2.innerText = '-Em breve-'
-    curso2.style.opacity = '0.3';
+    data2.innerText = '-INTERESSE-'
+    curso2.style.filter = 'grayscale(1)';
 
     curso3.src = 'img/mysqlcurso.png'
     titulo3.innerText = 'mySQL'
-    data3.innerText = '- Em breve -'
+    data3.innerText = '-INTERESSE-'
     cursoExtra.style.display = 'flex';
-    curso3.style.opacity = '0.3';
+    curso3.style.filter = 'grayscale(1)';
 });
 
 btnCursos.design.addEventListener("click", () => {
@@ -128,13 +129,13 @@ btnCursos.design.addEventListener("click", () => {
     curso2.src = 'img/webcurso.png'
     titulo2.innerText = "Web design - Youtube"
     data2.innerText = 'Mar 2023 a Out 2023'
-    curso2.style.opacity = '1';
+    curso2.style.filter = 'grayscale(0)';
 
     curso3.src = 'img/figmacurso.png'
     titulo3.innerText = 'Figma - Youtube'
     data3.innerText = 'Dez 2023 a Fev 2024'
     cursoExtra.style.display = 'flex';
-    curso3.style.opacity = '1';
+    curso3.style.filter = 'grayscale(0)';
 });
 
 btnCursos.extras.addEventListener("click", () => {
@@ -147,7 +148,7 @@ btnCursos.extras.addEventListener("click", () => {
     curso2.src = 'img/githubcurso.png'
     titulo2.innerText = "Github - Gustavo Guanabara"
     data2.innerText = 'Set 2022 a Out 2022'
-    curso2.style.opacity = '1';
+    curso2.style.filter = 'grayscale(0)';
 
     cursoExtra.style.display = 'none';
     
@@ -280,123 +281,122 @@ for (let index in targetConfigMap) {
     ScrollReveal().reveal(target, config);
 }
 
+// /*================================== MODAL Cursos =================================*/
+// /*============ MODAL curso1 =============*/
+// let cerrar4 = document.querySelectorAll(".close-telefonos")[0];
+// abrirc4 = document.querySelectorAll(".icon-info-cursos1")[0];
+// modal4 = document.querySelectorAll(".telefonos")[0];
+// modalc4 = document.querySelectorAll(".modal__telefonos")[0];
+// img4 = document.querySelectorAll(".modal__img-telefonos")[0];
 
-//ScrollReveal().reveal(listaTargetResumo[9], animaScrool7);
+// abrirc4.addEventListener("click",function(e){
+//     e.preventDefault();
+//     modalc4.style.opacity="1"
+//     img4.style.transform="scale(1)"
+//     modalc4.style.visibility="visible"
+//     modal4.classList.toggle("modals-close")
+//     img4.classList.toggle("open")
+// });
 
-/*================================== MODAL Cursos =================================*/
-/*============ MODAL curso1 =============*/
-let cerrar4 = document.querySelectorAll(".close-telefonos")[0];
-abrirc4 = document.querySelectorAll(".icon-info-cursos1")[0];
-modal4 = document.querySelectorAll(".telefonos")[0];
-modalc4 = document.querySelectorAll(".modal__telefonos")[0];
-img4 = document.querySelectorAll(".modal__img-telefonos")[0];
+// cerrar4.addEventListener("click",function(){
+//     modal4.classList.toggle("modals-close")
+//     // img.style.transform="scale(0)"
+//     // img.classList.toggle("open")
+//     setTimeout(function(){
+//         modalc4.style.opacity="0"
+//         modalc4.style.visibility="hidden"
+//     },400)
+// });
 
-abrirc4.addEventListener("click",function(e){
-    e.preventDefault();
-    modalc4.style.opacity="1"
-    img4.style.transform="scale(1)"
-    modalc4.style.visibility="visible"
-    modal4.classList.toggle("modals-close")
-    img4.classList.toggle("open")
-});
+// window.addEventListener("click",function(e){
+//     if(e.target == modalc4){
+//         modal4.classList.toggle("modals-close")
+//         // img.style.transform="scale(0)"
+//         // img.classList.toggle("open")
+//         setTimeout(function(){
+//             modalc4.style.opacity="0"
+//             modalc4.style.visibility="hidden"
+//         },400)
+//     }
+// });
 
-cerrar4.addEventListener("click",function(){
-    modal4.classList.toggle("modals-close")
-    // img.style.transform="scale(0)"
-    // img.classList.toggle("open")
-    setTimeout(function(){
-        modalc4.style.opacity="0"
-        modalc4.style.visibility="hidden"
-    },400)
-});
+// /*============ MODAL CURSO2 =============*/
+// let cerrar5 = document.querySelectorAll(".close-direccion")[0];
+// abrirc5 = document.querySelectorAll(".icon-info-cursos2")[0];
+// modal5 = document.querySelectorAll(".direccion")[0];
+// modalc5 = document.querySelectorAll(".modal__direccion")[0];
+// img5 = document.querySelectorAll(".modal__img-direccion")[0];
 
-window.addEventListener("click",function(e){
-    if(e.target == modalc4){
-        modal4.classList.toggle("modals-close")
-        // img.style.transform="scale(0)"
-        // img.classList.toggle("open")
-        setTimeout(function(){
-            modalc4.style.opacity="0"
-            modalc4.style.visibility="hidden"
-        },400)
-    }
-});
+// abrirc5.addEventListener("click",function(e){
+//     e.preventDefault();
+//     modalc5.style.opacity="1"
+//     img5.style.transform="scale(1)"
+//     modalc5.style.visibility="visible"
+//     modal5.classList.toggle("modals-close")
+//     img5.classList.toggle("open")
+// });
 
-/*============ MODAL CURSO2 =============*/
-let cerrar5 = document.querySelectorAll(".close-direccion")[0];
-abrirc5 = document.querySelectorAll(".icon-info-cursos2")[0];
-modal5 = document.querySelectorAll(".direccion")[0];
-modalc5 = document.querySelectorAll(".modal__direccion")[0];
-img5 = document.querySelectorAll(".modal__img-direccion")[0];
+// cerrar5.addEventListener("click",function(){
+//     modal5.classList.toggle("modals-close")
+//     // img.style.transform="scale(0)"
+//     // img.classList.toggle("open")
+//     setTimeout(function(){
+//         modalc5.style.opacity="0"
+//         modalc5.style.visibility="hidden"
+//     },400)
+// });
 
-abrirc5.addEventListener("click",function(e){
-    e.preventDefault();
-    modalc5.style.opacity="1"
-    img5.style.transform="scale(1)"
-    modalc5.style.visibility="visible"
-    modal5.classList.toggle("modals-close")
-    img5.classList.toggle("open")
-});
+// window.addEventListener("click",function(e){
+//     if(e.target == modalc5){
+//         modal5.classList.toggle("modals-close")
+//         // img.style.transform="scale(0)"
+//         // img.classList.toggle("open")
+//         setTimeout(function(){
+//             modalc5.style.opacity="0"
+//             modalc5.style.visibility="hidden"
+//         },400)
+//     }
+// });
 
-cerrar5.addEventListener("click",function(){
-    modal5.classList.toggle("modals-close")
-    // img.style.transform="scale(0)"
-    // img.classList.toggle("open")
-    setTimeout(function(){
-        modalc5.style.opacity="0"
-        modalc5.style.visibility="hidden"
-    },400)
-});
+// /*============ MODAL CURSO 3 =============*/
+// let cerrar6 = document.querySelectorAll(".close-horarios")[0];
+// abrirc6 = document.querySelectorAll(".icon-info-cursos3")[0];
+// modal6 = document.querySelectorAll(".horarios")[0];
+// modalc6 = document.querySelectorAll(".modal__horarios")[0];
+// img6 = document.querySelectorAll(".modal__img-horarios")[0];
 
-window.addEventListener("click",function(e){
-    if(e.target == modalc5){
-        modal5.classList.toggle("modals-close")
-        // img.style.transform="scale(0)"
-        // img.classList.toggle("open")
-        setTimeout(function(){
-            modalc5.style.opacity="0"
-            modalc5.style.visibility="hidden"
-        },400)
-    }
-});
+// abrirc6.addEventListener("click",function(e){
+//     e.preventDefault();
+//     modalc6.style.opacity="1"
+//     img6.style.transform="scale(1)"
+//     modalc6.style.visibility="visible"
+//     modal6.classList.toggle("modals-close")
 
-/*============ MODAL CURSO 3 =============*/
-let cerrar6 = document.querySelectorAll(".close-horarios")[0];
-abrirc6 = document.querySelectorAll(".icon-info-cursos3")[0];
-modal6 = document.querySelectorAll(".horarios")[0];
-modalc6 = document.querySelectorAll(".modal__horarios")[0];
-img6 = document.querySelectorAll(".modal__img-horarios")[0];
 
-abrirc6.addEventListener("click",function(e){
-    e.preventDefault();
-    modalc6.style.opacity="1"
-    img6.style.transform="scale(1)"
-    modalc6.style.visibility="visible"
-    modal6.classList.toggle("modals-close")
-    img6.classList.toggle("open")
-});
+//     img6.classList.toggle("open")
+// });
 
-cerrar6.addEventListener("click",function(){
-    modal6.classList.toggle("modals-close")
-    // img.style.transform="scale(0)"
-    // img.classList.toggle("open")
-    setTimeout(function(){
-        modalc6.style.opacity="0"
-        modalc6.style.visibility="hidden"
-    },400)
-});
+// cerrar6.addEventListener("click",function(){
+//     modal6.classList.toggle("modals-close")
+//     // img.style.transform="scale(0)"
+//     // img.classList.toggle("open")
+//     setTimeout(function(){
+//         modalc6.style.opacity="0"
+//         modalc6.style.visibility="hidden"
+//     },400)
+// });
 
-window.addEventListener("click",function(e){
-    if(e.target == modalc6){
-        modal6.classList.toggle("modals-close")
-        // img.style.transform="scale(0)"
-        // img.classList.toggle("open")
-        setTimeout(function(){
-            modalc6.style.opacity="0"
-            modalc6.style.visibility="hidden"
-        },400)
-    }
-});
+// window.addEventListener("click",function(e){
+//     if(e.target == modalc6){
+//         modal6.classList.toggle("modals-close")
+//         // img.style.transform="scale(0)"
+//         // img.classList.toggle("open")
+//         setTimeout(function(){
+//             modalc6.style.opacity="0"
+//             modalc6.style.visibility="hidden"
+//         },400)
+//     }
+// });
 
 
 
