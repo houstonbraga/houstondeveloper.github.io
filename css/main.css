@@ -61,7 +61,7 @@ html, body {
     font-family: 'Audiowide', 'Rubik', sans-serif;
     background-color: #111111;
     color: var(--color-white);
-    scroll-behavior: smooth;
+    
 }
 
 body {
@@ -71,16 +71,6 @@ body {
 
 .hidden {
     display: none!important;
-}
-
-.hidd {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.visible {
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
 }
 
 .color-primary {
@@ -222,6 +212,8 @@ a.navbar-brand {
 }
 
 /*resumo*/
+
+
 
 .nome-destaque {
     
