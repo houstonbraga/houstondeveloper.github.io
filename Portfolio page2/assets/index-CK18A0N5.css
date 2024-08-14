@@ -201,6 +201,11 @@ html {
     font-family: 'Audiowide';
     src: url(../fonts/Audiowide-Regular.ttf);
   }
+
+  @font-face {
+    font-family: 'outfit';
+    src: url(../fonts/Outfit-VariableFont_wght.ttf);
+  }
   
   /* Global Styles */
   * {
@@ -305,6 +310,7 @@ html {
   
   .text-block .text-block__p {
     line-height: 1.75;
+    font-family: 'outfit';
   }
 
 
