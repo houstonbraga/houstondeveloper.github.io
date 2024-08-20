@@ -242,7 +242,7 @@ html {
     width: 100%;
     position: absolute;
     left: 0;
-    top: 8vh;
+    top: 0;
     z-index: -1;
   }
   
@@ -261,9 +261,24 @@ html {
     font-size: calc(var(--index) * 9);
     position: absolute;
     width: min-content;
-    left: 10vw;
+    left: 8vh;
     bottom: 12vh;
     line-height: 0.97;
+  }
+
+  .icon-back {
+    margin-top: 12vh;
+    margin-right: 8vh;
+  }
+
+  .icon-back img {
+    cursor: pointer;
+  }
+
+  .container-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   /* Gallery */

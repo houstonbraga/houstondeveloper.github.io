@@ -808,7 +808,7 @@ footer span {
       opacity: 1;
     }
   
-to {
+    to {
     transform: scale(1.8);
     opacity: 0;
 }
