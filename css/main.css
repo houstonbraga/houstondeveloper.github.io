@@ -194,6 +194,10 @@ a.navbar-brand {
     background-position: 100%;
 }
 
+.nav-project {
+    color: #8F18CA!important;
+}
+
 /*aorela-nome*/
 
 .aorela-nome {
@@ -579,6 +583,10 @@ a.navbar-brand {
 
 .btn-ver-mais-projetos {
     background-color: transparent;
+}
+
+.btn {
+    text-decoration: none;
 }
 
 /*habilidades*/
