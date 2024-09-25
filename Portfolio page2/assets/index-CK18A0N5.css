@@ -173,6 +173,10 @@ html {
   [hidden] {
     display: none;
   }
+
+  .hidden {
+    display: none!important;
+  }
   
   /* Custom styles */
   :root {
@@ -366,32 +370,14 @@ html {
       max-width: calc(var(--index) * 26);
     }
 
-    .gallery .gallery-1 {
-      order: 1; /* Primeira posição */
-    }
     
-    .gallery.gallery-4 {
-      order: 2; /* Segunda posição */
+
+    .gallery-mobile {
+      display: flex!important;
     }
-    
-    .gallery.gallery-3 {
-      order: 3; /* Terceira posição */
-    }
-    
-    .gallery.gallery-6 {
-      order: 4; /* Quarta posição */
-    }
-    
-    .gallery.gallery-7 {
-      order: 5; /* Quinta posição */
-    }
-    
-    .gallery.gallery-5 {
-      order: 6; /* Sexta posição */
-    }
-    
-    .gallery.gallery-2 {
-      order: 7; /* Sétima posição */
+
+    .gallery-desk {
+      display: none!important;
     }
     
   }
