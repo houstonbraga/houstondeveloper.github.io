@@ -101,7 +101,7 @@ btnCursos.frameworks.addEventListener("click", () => {
 btnCursos.lenguages.addEventListener("click", () => {
   curso1.src = "img/javascript light.png";
   titulo1.innerText = "Javascript - Dev samurai";
-  data1.innerText = "- Em andamento -";
+  data1.innerText = "- Out 2023 a Jul 2024 -";
 
   curso2.src = "img/python.png.png";
   titulo2.innerText = "Python";

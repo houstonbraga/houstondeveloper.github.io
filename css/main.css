@@ -306,6 +306,11 @@ a.navbar-brand {
   background: none;
 }
 
+.text-about img {
+  margin-bottom: 1px;
+  margin-right: 2px;
+}
+
 /*Cursos*/
 
 .nome-curso-marca {
