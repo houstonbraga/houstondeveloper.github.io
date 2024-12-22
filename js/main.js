@@ -279,3 +279,5 @@ for (let index in targetConfigMap) {
   let config = animaScroolConfigs[targetConfigMap[index]];
   ScrollReveal().reveal(target, config);
 }
+
+//limpar formulario
